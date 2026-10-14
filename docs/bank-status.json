@@ -1,0 +1,92 @@
+{
+  "bankVersion": "2026.10.13-v1",
+  "verifiedOn": "2026-10-13",
+  "generated": 650,
+  "structurallyValidated": 650,
+  "sourceChecked": 650,
+  "flagged": 0,
+  "papers": [
+    {
+      "paper": "paper-01",
+      "generated": 65,
+      "structurallyValidated": 65,
+      "sourceChecked": 65,
+      "flagged": 0,
+      "multiple": 8
+    },
+    {
+      "paper": "paper-02",
+      "generated": 65,
+      "structurallyValidated": 65,
+      "sourceChecked": 65,
+      "flagged": 0,
+      "multiple": 8
+    },
+    {
+      "paper": "paper-03",
+      "generated": 65,
+      "structurallyValidated": 65,
+      "sourceChecked": 65,
+      "flagged": 0,
+      "multiple": 8
+    },
+    {
+      "paper": "paper-04",
+      "generated": 65,
+      "structurallyValidated": 65,
+      "sourceChecked": 65,
+      "flagged": 0,
+      "multiple": 8
+    },
+    {
+      "paper": "paper-05",
+      "generated": 65,
+      "structurallyValidated": 65,
+      "sourceChecked": 65,
+      "flagged": 0,
+      "multiple": 8
+    },
+    {
+      "paper": "paper-06",
+      "generated": 65,
+      "structurallyValidated": 65,
+      "sourceChecked": 65,
+      "flagged": 0,
+      "multiple": 8
+    },
+    {
+      "paper": "paper-07",
+      "generated": 65,
+      "structurallyValidated": 65,
+      "sourceChecked": 65,
+      "flagged": 0,
+      "multiple": 8
+    },
+    {
+      "paper": "paper-08",
+      "generated": 65,
+      "structurallyValidated": 65,
+      "sourceChecked": 65,
+      "flagged": 0,
+      "multiple": 8
+    },
+    {
+      "paper": "paper-09",
+      "generated": 65,
+      "structurallyValidated": 65,
+      "sourceChecked": 65,
+      "flagged": 0,
+      "multiple": 8
+    },
+    {
+      "paper": "paper-10",
+      "generated": 65,
+      "structurallyValidated": 65,
+      "sourceChecked": 65,
+      "flagged": 0,
+      "multiple": 8
+    }
+  ],
+  "nearDuplicateCandidates": [],
+  "reviewLimit": "Lexical similarity is a screening aid, not proof of semantic uniqueness. AI-authored and AI-reviewed, without psychometric calibration or human expert review."
+}

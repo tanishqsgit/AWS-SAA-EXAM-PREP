@@ -1,0 +1,1401 @@
+{
+  "verifiedOn": "2026-10-14",
+  "tasks": [
+    {
+      "id": "1.1",
+      "title": "Design secure access to AWS resources",
+      "topics": [
+        "c02-t01",
+        "c02-t02",
+        "c02-t03",
+        "c03-t01",
+        "c03-t02",
+        "c19-t01",
+        "c19-t02"
+      ],
+      "points": [
+        "Regions, zones, and shared responsibility",
+        "Root protection, MFA, and least privilege",
+        "Users, groups, roles, policy evaluation, and resource policies",
+        "Temporary sessions, federation, directory access, and cross-account trust",
+        "Account boundaries, SCPs, and governed landing zones"
+      ],
+      "url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain1.html"
+    },
+    {
+      "id": "1.2",
+      "title": "Design secure workloads and applications",
+      "topics": [
+        "c03-t03",
+        "c04-t01",
+        "c04-t02",
+        "c04-t03",
+        "c11-t03",
+        "c17-t02",
+        "c20-t01",
+        "c20-t02"
+      ],
+      "points": [
+        "Credentials and application configuration",
+        "Endpoints, ports, protocols, and both traffic directions",
+        "Public/private segmentation, routes, NAT, security groups, and ACLs",
+        "User authorization, identity integrations, and protected APIs",
+        "Threat detection, DDoS defenses, application filtering, and network inspection",
+        "VPN and private connectivity security"
+      ],
+      "url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain1.html"
+    },
+    {
+      "id": "1.3",
+      "title": "Determine appropriate data security controls",
+      "topics": [
+        "c03-t03",
+        "c06-t02",
+        "c06-t03",
+        "c12-t01",
+        "c21-t01",
+        "c21-t02",
+        "c21-t03",
+        "c26-t03"
+      ],
+      "points": [
+        "Data ownership, classification, residency, compliance evidence, and governance",
+        "Access, retention, lifecycle, immutable protection, and historical recovery",
+        "Encryption at rest and key-use policies",
+        "TLS, certificate renewal, and individual transport hops",
+        "Key lifecycle, rotation, and continued recoverability",
+        "Backup and replication permissions including recovery keys"
+      ],
+      "url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain1.html"
+    },
+    {
+      "id": "2.1",
+      "title": "Design scalable and loosely coupled architectures",
+      "topics": [
+        "c05-t02",
+        "c05-t03",
+        "c07-t03",
+        "c09-t01",
+        "c09-t02",
+        "c09-t03",
+        "c10-t01",
+        "c10-t02",
+        "c10-t03",
+        "c17-t01",
+        "c24-t01",
+        "c24-t02",
+        "c32-t01"
+      ],
+      "points": [
+        "Managed APIs and purposeful service selection",
+        "Stateful versus stateless components and multi-tier design",
+        "Horizontal/vertical scaling, load balancing, and caching",
+        "Queues, publish/subscribe, event routing, workflow state, and safe retries",
+        "Containers, orchestration, serverless compute, and compatible migrations",
+        "Read replicas, storage models, edge delivery, and independent scaling"
+      ],
+      "url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html"
+    },
+    {
+      "id": "2.2",
+      "title": "Design highly available and/or fault-tolerant architectures",
+      "topics": [
+        "c02-t01",
+        "c05-t02",
+        "c07-t01",
+        "c07-t02",
+        "c07-t03",
+        "c11-t02",
+        "c12-t01",
+        "c12-t02",
+        "c12-t03",
+        "c18-t01",
+        "c29-t01",
+        "c29-t03",
+        "c32-t02"
+      ],
+      "points": [
+        "Zone/Region failures, routing, load balancing, and single points of failure",
+        "Backups, durability, replication, and failover dependencies",
+        "RPO/RTO and backup/restore, pilot-light, warm-standby, and active designs",
+        "Immutable replacements, repeatable infrastructure, and safe automation",
+        "Connection pooling, quotas, throttling, standby capacity, and business-aligned monitoring",
+        "Legacy reliability improvements and managed purpose-built capabilities"
+      ],
+      "url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html"
+    },
+    {
+      "id": "3.1",
+      "title": "Determine high-performing and/or scalable storage solutions",
+      "topics": [
+        "c06-t01",
+        "c06-t02",
+        "c23-t01",
+        "c23-t02",
+        "c23-t03"
+      ],
+      "points": [
+        "Object, block, shared-file, and hybrid access models",
+        "IOPS, throughput, latency, concurrency, and supported storage configuration",
+        "Growth, lifecycle, locality, caching, and working-set behavior"
+      ],
+      "url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html"
+    },
+    {
+      "id": "3.2",
+      "title": "Design high-performing and elastic compute solutions",
+      "topics": [
+        "c05-t01",
+        "c05-t03",
+        "c09-t01",
+        "c10-t01",
+        "c10-t02",
+        "c24-t02",
+        "c25-t01",
+        "c25-t02",
+        "c26-t01",
+        "c30-t01",
+        "c30-t02",
+        "c30-t03",
+        "c31-t02"
+      ],
+      "points": [
+        "Compute families, sizes, function memory, measured demand, and scaling conditions",
+        "Managed batch, distributed processing, containers, and serverless patterns",
+        "Orchestration and independently scalable queued components",
+        "Regional/local/edge placement and downstream capacity",
+        "Purpose-built compute choices including guide-listed AI capability recognition"
+      ],
+      "url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html"
+    },
+    {
+      "id": "3.3",
+      "title": "Determine high-performing database solutions",
+      "topics": [
+        "c07-t01",
+        "c07-t02",
+        "c07-t03",
+        "c08-t01",
+        "c08-t02",
+        "c08-t03",
+        "c27-t01",
+        "c27-t02",
+        "c27-t03"
+      ],
+      "points": [
+        "Read/write patterns, engine compatibility, and relational/nonrelational models",
+        "Instance or capacity-unit planning, storage performance, and partitions",
+        "Connections, proxies, caches, read replicas, and replication lag",
+        "Availability topology and database capacity are separate decisions",
+        "Variable relational capacity, document/Cassandra compatibility, and graph traversal"
+      ],
+      "url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html"
+    },
+    {
+      "id": "3.4",
+      "title": "Determine high-performing and/or scalable network architectures",
+      "topics": [
+        "c04-t01",
+        "c04-t03",
+        "c05-t02",
+        "c11-t01",
+        "c11-t02",
+        "c11-t03",
+        "c22-t01",
+        "c22-t02",
+        "c22-t03"
+      ],
+      "points": [
+        "Addressing, subnets, routes, tiers, placement, and future growth",
+        "Global and hybrid connectivity, private endpoints, VPN, and dedicated connectivity",
+        "Content caching versus traffic acceleration",
+        "Layer-appropriate load balancing and deliberate failure paths"
+      ],
+      "url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html"
+    },
+    {
+      "id": "3.5",
+      "title": "Determine high-performing data ingestion and transformation solutions",
+      "topics": [
+        "c14-t01",
+        "c14-t02",
+        "c14-t03",
+        "c23-t01",
+        "c25-t03",
+        "c26-t01",
+        "c26-t02",
+        "c26-t03",
+        "c28-t02",
+        "c28-t03"
+      ],
+      "points": [
+        "Data size, arrival frequency, usable throughput, and secure ingestion",
+        "Online/offline transfers, gateway access, managed delivery, and streams",
+        "Transformations, catalogs, CSV/columnar formats, partitions, and query cost",
+        "Distributed processing, warehouse analysis, search, governed lakes, and visualization"
+      ],
+      "url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html"
+    },
+    {
+      "id": "4.1",
+      "title": "Design cost-optimized storage solutions",
+      "topics": [
+        "c06-t01",
+        "c06-t02",
+        "c12-t01",
+        "c14-t01",
+        "c23-t01",
+        "c23-t02",
+        "c28-t02",
+        "c31-t01"
+      ],
+      "points": [
+        "Access frequency, lifecycle, archival retrieval, and backup retention",
+        "Volume family, working-set size, growth, and shared-file options",
+        "Request batching, Requester Pays, allocation, and complete pricing dimensions",
+        "Hybrid/online/offline migration and the complete transfer window"
+      ],
+      "url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html"
+    },
+    {
+      "id": "4.2",
+      "title": "Design cost-optimized compute solutions",
+      "topics": [
+        "c05-t01",
+        "c05-t02",
+        "c05-t03",
+        "c10-t01",
+        "c10-t02",
+        "c15-t01",
+        "c15-t02",
+        "c25-t01",
+        "c25-t02",
+        "c31-t02"
+      ],
+      "points": [
+        "Allocation and usage evidence, purchasing commitments, and interruption tolerance",
+        "Instance family/size, container utilization, serverless, and edge/hybrid placement",
+        "Horizontal/vertical scaling, eligible hibernation, and production availability",
+        "Layer 7/Layer 4/appliance balancing and complete operating cost"
+      ],
+      "url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html"
+    },
+    {
+      "id": "4.3",
+      "title": "Design cost-optimized database solutions",
+      "topics": [
+        "c07-t01",
+        "c07-t02",
+        "c07-t03",
+        "c08-t01",
+        "c08-t02",
+        "c08-t03",
+        "c14-t01",
+        "c26-t02",
+        "c27-t01",
+        "c27-t02",
+        "c27-t03",
+        "c31-t01"
+      ],
+      "points": [
+        "Usage evidence, capacity, access model, and engine compatibility",
+        "Caching, connection management, replicas, and retention costs",
+        "Relational, key/document/graph, time-oriented, and columnar workload models",
+        "Backup frequency, historical retention, schema changes, and migration validation"
+      ],
+      "url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html"
+    },
+    {
+      "id": "4.4",
+      "title": "Design cost-optimized network architectures",
+      "topics": [
+        "c04-t03",
+        "c05-t02",
+        "c11-t01",
+        "c11-t03",
+        "c15-t02",
+        "c22-t01",
+        "c22-t02",
+        "c22-t03",
+        "c31-t03"
+      ],
+      "points": [
+        "Allocation and complete transfer/processing charges",
+        "Managed NAT versus customer-managed instances and zone-placement trade-offs",
+        "VPN, dedicated/private links, peering, transit, DNS, and scalable bandwidth",
+        "Region/AZ paths, endpoints, acceleration, caching, and throttling"
+      ],
+      "url": "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html"
+    }
+  ],
+  "concepts": [
+    [
+      "Compute",
+      [
+        "c05-t01",
+        "c10-t01",
+        "c24-t02",
+        "c25-t01"
+      ]
+    ],
+    [
+      "Cost management",
+      [
+        "c15-t03",
+        "c31-t01",
+        "c31-t02",
+        "c31-t03"
+      ]
+    ],
+    [
+      "Database",
+      [
+        "c07-t01",
+        "c08-t01",
+        "c27-t01",
+        "c27-t02",
+        "c27-t03"
+      ]
+    ],
+    [
+      "Disaster recovery",
+      [
+        "c12-t01",
+        "c12-t02",
+        "c12-t03",
+        "c32-t02"
+      ]
+    ],
+    [
+      "High performance",
+      [
+        "c23-t02",
+        "c26-t02",
+        "c31-t02"
+      ]
+    ],
+    [
+      "Management and governance",
+      [
+        "c13-t02",
+        "c18-t01",
+        "c18-t02",
+        "c19-t01"
+      ]
+    ],
+    [
+      "Microservices and component delivery",
+      [
+        "c09-t01",
+        "c10-t03",
+        "c17-t01",
+        "c24-t01"
+      ]
+    ],
+    [
+      "Migration and data transfer",
+      [
+        "c14-t01",
+        "c28-t01",
+        "c28-t02",
+        "c28-t03"
+      ]
+    ],
+    [
+      "Networking, connectivity, and content delivery",
+      [
+        "c04-t01",
+        "c11-t01",
+        "c11-t03",
+        "c22-t01"
+      ]
+    ],
+    [
+      "Resiliency",
+      [
+        "c05-t02",
+        "c07-t01",
+        "c32-t01",
+        "c32-t02"
+      ]
+    ],
+    [
+      "Security",
+      [
+        "c03-t01",
+        "c20-t01",
+        "c20-t02",
+        "c21-t02"
+      ]
+    ],
+    [
+      "Serverless and event-driven principles",
+      [
+        "c09-t02",
+        "c09-t03",
+        "c10-t01",
+        "c17-t01"
+      ]
+    ],
+    [
+      "Storage",
+      [
+        "c06-t01",
+        "c23-t01",
+        "c23-t02",
+        "c23-t03"
+      ]
+    ]
+  ],
+  "services": [
+    {
+      "name": "Amazon Athena",
+      "category": "Analytics",
+      "key": "athena",
+      "topicId": "c14-t03",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/athena/latest/ug/what-is.html"
+    },
+    {
+      "name": "AWS Data Exchange",
+      "category": "Analytics",
+      "key": "exchange",
+      "topicId": "c26-t03",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/data-exchange/latest/userguide/what-is.html"
+    },
+    {
+      "name": "Amazon Data Firehose",
+      "category": "Analytics",
+      "key": "firehose",
+      "topicId": "c14-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/firehose/latest/dev/what-is-this-service.html"
+    },
+    {
+      "name": "Amazon EMR",
+      "category": "Analytics",
+      "key": "emr",
+      "topicId": "c26-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-what-is-emr.html"
+    },
+    {
+      "name": "AWS Glue",
+      "category": "Analytics",
+      "key": "glue",
+      "topicId": "c14-t03",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html"
+    },
+    {
+      "name": "Amazon Kinesis",
+      "category": "Analytics",
+      "key": "kinesis",
+      "topicId": "c14-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/streams/latest/dev/introduction.html"
+    },
+    {
+      "name": "AWS Lake Formation",
+      "category": "Analytics",
+      "key": "lake",
+      "topicId": "c26-t03",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/lake-formation/latest/dg/what-is-lake-formation.html"
+    },
+    {
+      "name": "Amazon Managed Streaming for Apache Kafka (Amazon MSK)",
+      "category": "Analytics",
+      "key": "msk",
+      "topicId": "c28-t03",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/msk/latest/developerguide/what-is-msk.html"
+    },
+    {
+      "name": "Amazon OpenSearch Service",
+      "category": "Analytics",
+      "key": "opensearch",
+      "topicId": "c26-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/opensearch-service/latest/developerguide/what-is.html"
+    },
+    {
+      "name": "Amazon Quick",
+      "category": "Analytics",
+      "key": "quick",
+      "topicId": "c26-t03",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/quicksight/latest/user/welcome.html"
+    },
+    {
+      "name": "Amazon Redshift",
+      "category": "Database",
+      "key": "redshift",
+      "topicId": "c26-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/redshift/latest/mgmt/welcome.html"
+    },
+    {
+      "name": "Amazon AppFlow",
+      "category": "Application Integration",
+      "key": "appflow",
+      "topicId": "c28-t03",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/appflow/latest/userguide/what-is-appflow.html"
+    },
+    {
+      "name": "Amazon EventBridge",
+      "category": "Application Integration",
+      "key": "events",
+      "topicId": "c09-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html"
+    },
+    {
+      "name": "Amazon MQ",
+      "category": "Application Integration",
+      "key": "mq",
+      "topicId": "c28-t03",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/welcome.html"
+    },
+    {
+      "name": "Amazon SNS",
+      "category": "Application Integration",
+      "key": "sns",
+      "topicId": "c09-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/sns/latest/dg/sns-sqs-as-subscriber.html"
+    },
+    {
+      "name": "Amazon SQS",
+      "category": "Application Integration",
+      "key": "sqs",
+      "topicId": "c09-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html"
+    },
+    {
+      "name": "AWS Step Functions",
+      "category": "Application Integration",
+      "key": "steps",
+      "topicId": "c09-t03",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html"
+    },
+    {
+      "name": "AWS Budgets",
+      "category": "AWS Cost Management",
+      "key": "budgets",
+      "topicId": "c15-t03",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html"
+    },
+    {
+      "name": "AWS Cost and Usage Report",
+      "category": "AWS Cost Management",
+      "key": "cur",
+      "topicId": "c31-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/cur/latest/userguide/what-is-cur.html"
+    },
+    {
+      "name": "AWS Cost Explorer",
+      "category": "AWS Cost Management",
+      "key": "cost",
+      "topicId": "c15-t03",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/cost-management/latest/userguide/ce-what-is.html"
+    },
+    {
+      "name": "Savings Plans",
+      "category": "AWS Cost Management",
+      "key": "savings",
+      "topicId": "c15-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/savingsplans/latest/userguide/what-is-savings-plans.html"
+    },
+    {
+      "name": "AWS Batch",
+      "category": "Compute",
+      "key": "batch",
+      "topicId": "c25-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html"
+    },
+    {
+      "name": "Amazon EC2",
+      "category": "Compute",
+      "key": "ec2",
+      "topicId": "c05-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html"
+    },
+    {
+      "name": "Amazon EC2 Auto Scaling",
+      "category": "Compute",
+      "key": "ec2asg",
+      "topicId": "c05-t03",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/auto-scaling-groups.html"
+    },
+    {
+      "name": "AWS Elastic Beanstalk",
+      "category": "Compute",
+      "key": "beanstalk",
+      "topicId": "c25-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html"
+    },
+    {
+      "name": "AWS Outposts",
+      "category": "Compute",
+      "key": "outposts",
+      "topicId": "c25-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/outposts/latest/userguide/what-is-outposts.html"
+    },
+    {
+      "name": "AWS Serverless Application Repository",
+      "category": "Compute",
+      "key": "sar",
+      "topicId": "c25-t03",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/serverlessrepo/latest/devguide/what-is-serverlessrepo.html"
+    },
+    {
+      "name": "VMware Cloud on AWS",
+      "category": "Compute",
+      "key": "vmware",
+      "topicId": "c25-t02",
+      "depth": "guide-listed legacy",
+      "reference": "https://aws.amazon.com/vmware/vmwarecloudonaws/"
+    },
+    {
+      "name": "AWS Wavelength",
+      "category": "Compute",
+      "key": "wavelength",
+      "topicId": "c25-t02",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/wavelength/latest/developerguide/what-is-wavelength.html"
+    },
+    {
+      "name": "Amazon ECR",
+      "category": "Containers",
+      "key": "ecr",
+      "topicId": "c24-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/AmazonECR/latest/userguide/what-is-ecr.html"
+    },
+    {
+      "name": "Amazon ECS",
+      "category": "Containers",
+      "key": "ecs",
+      "topicId": "c10-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html"
+    },
+    {
+      "name": "Amazon ECS Anywhere",
+      "category": "Containers",
+      "key": "ecsany",
+      "topicId": "c24-t03",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-anywhere.html"
+    },
+    {
+      "name": "Amazon EKS",
+      "category": "Containers",
+      "key": "eks",
+      "topicId": "c24-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html"
+    },
+    {
+      "name": "Amazon EKS Anywhere",
+      "category": "Containers",
+      "key": "eksany",
+      "topicId": "c24-t03",
+      "depth": "overview",
+      "reference": "https://aws.amazon.com/eks/eks-anywhere/"
+    },
+    {
+      "name": "Amazon EKS Distro",
+      "category": "Containers",
+      "key": "eksdistro",
+      "topicId": "c24-t03",
+      "depth": "overview",
+      "reference": "https://aws.amazon.com/eks/eks-distro/"
+    },
+    {
+      "name": "Amazon Aurora",
+      "category": "Database",
+      "key": "aurora",
+      "topicId": "c07-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.AuroraHighAvailability.html"
+    },
+    {
+      "name": "Amazon Aurora Serverless",
+      "category": "Database",
+      "key": "auroraserverless",
+      "topicId": "c27-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.html"
+    },
+    {
+      "name": "Amazon DocumentDB",
+      "category": "Database",
+      "key": "documentdb",
+      "topicId": "c27-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/documentdb/latest/developerguide/what-is.html"
+    },
+    {
+      "name": "Amazon DynamoDB",
+      "category": "Database",
+      "key": "dynamo",
+      "topicId": "c08-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html"
+    },
+    {
+      "name": "Amazon ElastiCache",
+      "category": "Database",
+      "key": "cache",
+      "topicId": "c07-t03",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/WhatIs.html"
+    },
+    {
+      "name": "Amazon Keyspaces",
+      "category": "Database",
+      "key": "keyspaces",
+      "topicId": "c27-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/keyspaces/latest/devguide/what-is-keyspaces.html"
+    },
+    {
+      "name": "Amazon Neptune",
+      "category": "Database",
+      "key": "neptune",
+      "topicId": "c27-t03",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/neptune/latest/userguide/intro.html"
+    },
+    {
+      "name": "Amazon RDS",
+      "category": "Database",
+      "key": "rds",
+      "topicId": "c07-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html"
+    },
+    {
+      "name": "AWS X-Ray",
+      "category": "Developer Tools",
+      "key": "xray",
+      "topicId": "c29-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/xray/latest/devguide/aws-xray.html"
+    },
+    {
+      "name": "AWS Amplify",
+      "category": "Front-End Web and Mobile",
+      "key": "amplify",
+      "topicId": "c17-t03",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html"
+    },
+    {
+      "name": "Amazon API Gateway",
+      "category": "Front-End Web and Mobile",
+      "key": "apigateway",
+      "topicId": "c17-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html"
+    },
+    {
+      "name": "AWS Device Farm",
+      "category": "Front-End Web and Mobile",
+      "key": "devicefarm",
+      "topicId": "c17-t03",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/devicefarm/latest/developerguide/welcome.html"
+    },
+    {
+      "name": "Amazon Comprehend",
+      "category": "Machine Learning",
+      "key": "comprehend",
+      "topicId": "c30-t01",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/comprehend/latest/dg/what-is.html"
+    },
+    {
+      "name": "Amazon Lex",
+      "category": "Machine Learning",
+      "key": "lex",
+      "topicId": "c30-t02",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/lexv2/latest/dg/what-is.html"
+    },
+    {
+      "name": "Amazon Polly",
+      "category": "Machine Learning",
+      "key": "polly",
+      "topicId": "c30-t02",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/polly/latest/dg/what-is.html"
+    },
+    {
+      "name": "Amazon Rekognition",
+      "category": "Machine Learning",
+      "key": "rekognition",
+      "topicId": "c30-t03",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html"
+    },
+    {
+      "name": "Amazon SageMaker AI",
+      "category": "Machine Learning",
+      "key": "sagemaker",
+      "topicId": "c30-t03",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html"
+    },
+    {
+      "name": "Amazon Textract",
+      "category": "Machine Learning",
+      "key": "textract",
+      "topicId": "c30-t01",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/textract/latest/dg/what-is.html"
+    },
+    {
+      "name": "Amazon Transcribe",
+      "category": "Machine Learning",
+      "key": "transcribe",
+      "topicId": "c30-t02",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/transcribe/latest/dg/what-is.html"
+    },
+    {
+      "name": "Amazon Translate",
+      "category": "Machine Learning",
+      "key": "translate",
+      "topicId": "c30-t01",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/translate/latest/dg/what-is.html"
+    },
+    {
+      "name": "AWS Auto Scaling",
+      "category": "Management and Governance",
+      "key": "autoscaling",
+      "topicId": "c31-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/autoscaling/plans/userguide/what-is-a-scaling-plan.html"
+    },
+    {
+      "name": "AWS CLI",
+      "category": "Management and Governance",
+      "key": "cli",
+      "topicId": "c18-t03",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html"
+    },
+    {
+      "name": "AWS CloudFormation",
+      "category": "Management and Governance",
+      "key": "cfn",
+      "topicId": "c18-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html"
+    },
+    {
+      "name": "AWS CloudTrail",
+      "category": "Management and Governance",
+      "key": "trail",
+      "topicId": "c13-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html"
+    },
+    {
+      "name": "Amazon CloudWatch",
+      "category": "Management and Governance",
+      "key": "cw",
+      "topicId": "c13-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html"
+    },
+    {
+      "name": "AWS Compute Optimizer",
+      "category": "Management and Governance",
+      "key": "optimizer",
+      "topicId": "c31-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/compute-optimizer/latest/ug/what-is-compute-optimizer.html"
+    },
+    {
+      "name": "AWS Config",
+      "category": "Management and Governance",
+      "key": "config",
+      "topicId": "c13-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.html"
+    },
+    {
+      "name": "AWS Control Tower",
+      "category": "Management and Governance",
+      "key": "tower",
+      "topicId": "c19-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/controltower/latest/userguide/what-is-control-tower.html"
+    },
+    {
+      "name": "AWS Health Dashboard",
+      "category": "Management and Governance",
+      "key": "health",
+      "topicId": "c29-t03",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/health/latest/ug/what-is-aws-health.html"
+    },
+    {
+      "name": "AWS License Manager",
+      "category": "Management and Governance",
+      "key": "license",
+      "topicId": "c19-t03",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/license-manager/latest/userguide/license-manager.html"
+    },
+    {
+      "name": "Amazon Managed Grafana",
+      "category": "Management and Governance",
+      "key": "grafana",
+      "topicId": "c29-t02",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/grafana/latest/userguide/what-is-Amazon-Managed-Service-Grafana.html"
+    },
+    {
+      "name": "Amazon Managed Service for Prometheus",
+      "category": "Management and Governance",
+      "key": "prometheus",
+      "topicId": "c29-t02",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/prometheus/latest/userguide/what-is-Amazon-Managed-Service-Prometheus.html"
+    },
+    {
+      "name": "AWS Management Console",
+      "category": "Management and Governance",
+      "key": "console",
+      "topicId": "c18-t03",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/what-is.html"
+    },
+    {
+      "name": "AWS Organizations",
+      "category": "Management and Governance",
+      "key": "orgs",
+      "topicId": "c19-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html"
+    },
+    {
+      "name": "AWS Service Catalog",
+      "category": "Management and Governance",
+      "key": "catalog",
+      "topicId": "c19-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/servicecatalog/latest/adminguide/introduction.html"
+    },
+    {
+      "name": "AWS Systems Manager",
+      "category": "Management and Governance",
+      "key": "ssm",
+      "topicId": "c18-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html"
+    },
+    {
+      "name": "AWS Trusted Advisor",
+      "category": "Management and Governance",
+      "key": "advisor",
+      "topicId": "c31-t03",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html"
+    },
+    {
+      "name": "AWS Well-Architected Tool",
+      "category": "Management and Governance",
+      "key": "watool",
+      "topicId": "c32-t03",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/wellarchitected/latest/userguide/tool.html"
+    },
+    {
+      "name": "Amazon Elastic Transcoder",
+      "category": "Media Services",
+      "key": "transcoder",
+      "topicId": "c25-t03",
+      "depth": "guide-listed legacy",
+      "reference": "https://docs.aws.amazon.com/es_es/elastictranscoder/latest/developerguide/history.html"
+    },
+    {
+      "name": "Amazon Kinesis Video Streams",
+      "category": "Media Services",
+      "key": "videostream",
+      "topicId": "c25-t03",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/what-is-kinesis-video.html"
+    },
+    {
+      "name": "AWS Application Migration Service",
+      "category": "Migration and Transfer",
+      "key": "mgn",
+      "topicId": "c28-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/mgn/latest/ug/what-is-application-migration-service.html"
+    },
+    {
+      "name": "AWS DataSync",
+      "category": "Migration and Transfer",
+      "key": "datasync",
+      "topicId": "c14-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/datasync/latest/userguide/what-is-datasync.html"
+    },
+    {
+      "name": "AWS DMS",
+      "category": "Migration and Transfer",
+      "key": "dms",
+      "topicId": "c14-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/dms/latest/userguide/Welcome.html"
+    },
+    {
+      "name": "AWS Snow Family",
+      "category": "Migration and Transfer",
+      "key": "snow",
+      "topicId": "c28-t02",
+      "depth": "guide-listed legacy",
+      "reference": "https://docs.aws.amazon.com/snowball/latest/developer-guide/whatisedge.html"
+    },
+    {
+      "name": "AWS Transfer Family",
+      "category": "Migration and Transfer",
+      "key": "transfer",
+      "topicId": "c14-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/transfer/latest/userguide/what-is-aws-transfer-family.html"
+    },
+    {
+      "name": "AWS Client VPN",
+      "category": "Networking and Content Delivery",
+      "key": "clientvpn",
+      "topicId": "c22-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/vpn/latest/clientvpn-admin/what-is.html"
+    },
+    {
+      "name": "Amazon CloudFront",
+      "category": "Networking and Content Delivery",
+      "key": "cloudfront",
+      "topicId": "c11-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html"
+    },
+    {
+      "name": "AWS Direct Connect",
+      "category": "Networking and Content Delivery",
+      "key": "dx",
+      "topicId": "c11-t03",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html"
+    },
+    {
+      "name": "Elastic Load Balancing (ELB)",
+      "category": "Networking and Content Delivery",
+      "key": "elb",
+      "topicId": "c05-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html"
+    },
+    {
+      "name": "AWS Global Accelerator",
+      "category": "Networking and Content Delivery",
+      "key": "accelerator",
+      "topicId": "c22-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/global-accelerator/latest/dg/what-is-global-accelerator.html"
+    },
+    {
+      "name": "AWS PrivateLink",
+      "category": "Networking and Content Delivery",
+      "key": "privatelink",
+      "topicId": "c04-t03",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/vpc/latest/privatelink/concepts.html"
+    },
+    {
+      "name": "Amazon Route 53",
+      "category": "Networking and Content Delivery",
+      "key": "dns",
+      "topicId": "c11-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html"
+    },
+    {
+      "name": "AWS Site-to-Site VPN",
+      "category": "Networking and Content Delivery",
+      "key": "sitevpn",
+      "topicId": "c11-t03",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html"
+    },
+    {
+      "name": "AWS Transit Gateway",
+      "category": "Networking and Content Delivery",
+      "key": "tgw",
+      "topicId": "c11-t03",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/vpc/latest/tgw/what-is-transit-gateway.html"
+    },
+    {
+      "name": "Amazon VPC",
+      "category": "Networking and Content Delivery",
+      "key": "vpc",
+      "topicId": "c04-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html"
+    },
+    {
+      "name": "AWS Artifact",
+      "category": "Security, Identity, and Compliance",
+      "key": "artifact",
+      "topicId": "c21-t03",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/artifact/latest/ug/what-is-aws-artifact.html"
+    },
+    {
+      "name": "AWS Certificate Manager (ACM)",
+      "category": "Security, Identity, and Compliance",
+      "key": "acm",
+      "topicId": "c21-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html"
+    },
+    {
+      "name": "AWS CloudHSM",
+      "category": "Security, Identity, and Compliance",
+      "key": "hsm",
+      "topicId": "c21-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/cloudhsm/latest/userguide/introduction.html"
+    },
+    {
+      "name": "Amazon Cognito",
+      "category": "Security, Identity, and Compliance",
+      "key": "cognito",
+      "topicId": "c03-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html"
+    },
+    {
+      "name": "Amazon Detective",
+      "category": "Security, Identity, and Compliance",
+      "key": "detective",
+      "topicId": "c20-t03",
+      "depth": "overview",
+      "reference": "https://docs.aws.amazon.com/detective/latest/userguide/what-is-detective.html"
+    },
+    {
+      "name": "AWS Directory Service",
+      "category": "Security, Identity, and Compliance",
+      "key": "directory",
+      "topicId": "c19-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/directoryservice/latest/admin-guide/what_is.html"
+    },
+    {
+      "name": "AWS Firewall Manager",
+      "category": "Security, Identity, and Compliance",
+      "key": "firewallmanager",
+      "topicId": "c20-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/waf/latest/developerguide/fms-chapter.html"
+    },
+    {
+      "name": "Amazon GuardDuty",
+      "category": "Security, Identity, and Compliance",
+      "key": "guardduty",
+      "topicId": "c20-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html"
+    },
+    {
+      "name": "AWS IAM Identity Center",
+      "category": "Security, Identity, and Compliance",
+      "key": "identity",
+      "topicId": "c03-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html"
+    },
+    {
+      "name": "Amazon Inspector",
+      "category": "Security, Identity, and Compliance",
+      "key": "inspector",
+      "topicId": "c20-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/inspector/latest/user/what-is-inspector.html"
+    },
+    {
+      "name": "AWS KMS",
+      "category": "Security, Identity, and Compliance",
+      "key": "kms",
+      "topicId": "c03-t03",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/kms/latest/developerguide/key-policies.html"
+    },
+    {
+      "name": "Amazon Macie",
+      "category": "Security, Identity, and Compliance",
+      "key": "macie",
+      "topicId": "c20-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/macie/latest/user/what-is-macie.html"
+    },
+    {
+      "name": "AWS Network Firewall",
+      "category": "Security, Identity, and Compliance",
+      "key": "networkfirewall",
+      "topicId": "c20-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/network-firewall/latest/developerguide/what-is-aws-network-firewall.html"
+    },
+    {
+      "name": "AWS Resource Access Manager (AWS RAM)",
+      "category": "Security, Identity, and Compliance",
+      "key": "ram",
+      "topicId": "c19-t03",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/ram/latest/userguide/what-is.html"
+    },
+    {
+      "name": "AWS Secrets Manager",
+      "category": "Security, Identity, and Compliance",
+      "key": "secrets",
+      "topicId": "c03-t03",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/secretsmanager/latest/userguide/rotating-secrets.html"
+    },
+    {
+      "name": "AWS Security Hub",
+      "category": "Security, Identity, and Compliance",
+      "key": "securityhub",
+      "topicId": "c20-t03",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/securityhub/latest/userguide/what-is-securityhub.html"
+    },
+    {
+      "name": "AWS Shield",
+      "category": "Security, Identity, and Compliance",
+      "key": "shield",
+      "topicId": "c20-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/waf/latest/developerguide/shield-chapter.html"
+    },
+    {
+      "name": "AWS WAF",
+      "category": "Security, Identity, and Compliance",
+      "key": "waf",
+      "topicId": "c13-t03",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html"
+    },
+    {
+      "name": "IAM",
+      "category": "Security, Identity, and Compliance",
+      "key": "iam",
+      "topicId": "c03-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html"
+    },
+    {
+      "name": "AWS Fargate",
+      "category": "Serverless",
+      "key": "fargate",
+      "topicId": "c10-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.html"
+    },
+    {
+      "name": "AWS Lambda",
+      "category": "Serverless",
+      "key": "lambda",
+      "topicId": "c10-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html"
+    },
+    {
+      "name": "AWS Backup",
+      "category": "Storage",
+      "key": "backup",
+      "topicId": "c12-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html"
+    },
+    {
+      "name": "Amazon EBS",
+      "category": "Storage",
+      "key": "ebs",
+      "topicId": "c06-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volume-types.html"
+    },
+    {
+      "name": "Amazon EFS",
+      "category": "Storage",
+      "key": "efs",
+      "topicId": "c06-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html"
+    },
+    {
+      "name": "Amazon FSx (for all types)",
+      "category": "Storage",
+      "key": "fsx",
+      "topicId": "c23-t03",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/fsx/latest/WindowsGuide/what-is.html"
+    },
+    {
+      "name": "Amazon S3",
+      "category": "Storage",
+      "key": "s3",
+      "topicId": "c06-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html"
+    },
+    {
+      "name": "Amazon S3 Glacier",
+      "category": "Storage",
+      "key": "glacier",
+      "topicId": "c06-t02",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html"
+    },
+    {
+      "name": "AWS Storage Gateway",
+      "category": "Storage",
+      "key": "storagegateway",
+      "topicId": "c23-t01",
+      "depth": "core",
+      "reference": "https://docs.aws.amazon.com/storagegateway/latest/userguide/WhatIsStorageGateway.html"
+    }
+  ],
+  "gaps": {
+    "services": [],
+    "tasks": [],
+    "concepts": []
+  }
+}

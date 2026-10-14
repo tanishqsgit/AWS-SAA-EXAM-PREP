@@ -1,0 +1,6 @@
+import {refs,date} from './catalog.mjs';
+import {mkdir,writeFile} from 'node:fs/promises';
+await mkdir('docs/sources',{recursive:true});
+const ledger=[];
+for(let start=0;start<Object.entries(refs).length;start+=6){await Promise.all(Object.entries(refs).slice(start,start+6).map(async([key,url])=>{try{const r=await fetch(url,{signal:AbortSignal.timeout(30000)});const html=await r.text();const body=html.split(/<main[^>]*>|<div id="main-content"[^>]*>/i)[1]||html;const plain=body.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi,'').replace(/<[^>]*>/g,' ').replace(/&nbsp;|&#160;/g,' ').replace(/&amp;/g,'&').replace(/\s+/g,' ').trim();const redirectedToHome=/AWS Documentation.*(?:Page not found|Documentation home)/i.test(plain.slice(0,1000))||r.url.endsWith('index.html')&&!url.endsWith('index.html');const ok=r.ok&&plain.length>250&&!redirectedToHome;await writeFile(`docs/sources/${key}.txt`,plain);ledger.push({key,url,resolvedUrl:r.url,date,status:ok?'retrieved':'unverified',length:plain.length});console.log(key,ok?'OK':'UNVERIFIED',plain.slice(0,900));}catch(e){ledger.push({key,url,date,status:'unverified',error:String(e)});console.log(key,'UNVERIFIED',String(e));}}));}
+await writeFile('docs/source-ledger.json',JSON.stringify(ledger.sort((a,b)=>a.key.localeCompare(b.key)),null,2));

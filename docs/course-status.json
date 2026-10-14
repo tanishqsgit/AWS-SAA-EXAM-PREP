@@ -1,0 +1,720 @@
+{
+  "version": "2026.10.14-v2",
+  "date": "2026-10-14",
+  "chapters": 32,
+  "topics": 96,
+  "newConceptChecks": 252,
+  "totalChapterQuestions": 318,
+  "serviceAtlasChecks": 118,
+  "teachingWordCount": 36452,
+  "officialTasks": 14,
+  "officialConceptGroups": 13,
+  "officialUniqueServices": 118,
+  "gaps": {
+    "services": [],
+    "tasks": [],
+    "concepts": []
+  },
+  "referencePagesRetrieved": 161,
+  "referencePagesTotal": 161,
+  "sourceReview": "AI capability comparison; retrieval, structural validation and editorial review are separate. No human expert review or guarantee of passing. Published lists are non-exhaustive; overview is not equal depth to core.",
+  "coverage": [
+    {
+      "id": "c01",
+      "title": "Computers, websites, and the cloud",
+      "topics": 3,
+      "newChecks": 6,
+      "appliedScenarios": 0,
+      "testQuestions": 6,
+      "topicNames": [
+        "What a computer actually does",
+        "How a website reaches you",
+        "What cloud computing changes"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html"
+      ]
+    },
+    {
+      "id": "c02",
+      "title": "AWS foundations and architecture thinking",
+      "topics": 3,
+      "newChecks": 6,
+      "appliedScenarios": 1,
+      "testQuestions": 7,
+      "topicNames": [
+        "Regions, Availability Zones, and edge locations",
+        "Shared responsibility and managed services",
+        "Requirements and the Well-Architected mindset"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/global-infrastructure.html",
+        "https://aws.amazon.com/compliance/shared-responsibility-model/",
+        "https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html",
+        "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.html"
+      ]
+    },
+    {
+      "id": "c03",
+      "title": "Identity, permissions, encryption, and secrets",
+      "topics": 3,
+      "newChecks": 6,
+      "appliedScenarios": 10,
+      "testQuestions": 16,
+      "topicNames": [
+        "IAM identities, roles, and federation",
+        "Policy evaluation and cross-account access",
+        "KMS, secrets, and TLS"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
+        "https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html",
+        "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html",
+        "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html",
+        "https://docs.aws.amazon.com/kms/latest/developerguide/key-policies.html",
+        "https://docs.aws.amazon.com/secretsmanager/latest/userguide/rotating-secrets.html",
+        "https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html",
+        "https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html"
+      ]
+    },
+    {
+      "id": "c04",
+      "title": "Networking: build the traffic path",
+      "topics": 3,
+      "newChecks": 6,
+      "appliedScenarios": 4,
+      "testQuestions": 10,
+      "topicNames": [
+        "VPCs, subnets, addresses, and routes",
+        "Security groups and network ACLs",
+        "NAT, endpoints, and service-specific access"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html",
+        "https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html",
+        "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html",
+        "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html",
+        "https://docs.aws.amazon.com/vpc/latest/privatelink/concepts.html",
+        "https://docs.aws.amazon.com/vpc/latest/privatelink/gateway-endpoints.html",
+        "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html"
+      ]
+    },
+    {
+      "id": "c05",
+      "title": "Compute, load balancing, and scaling",
+      "topics": 3,
+      "newChecks": 6,
+      "appliedScenarios": 5,
+      "testQuestions": 11,
+      "topicNames": [
+        "EC2 and the compute fit",
+        "ALB, NLB, and health checks",
+        "Auto Scaling and stateless capacity"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+        "https://docs.aws.amazon.com/autoscaling/ec2/userguide/auto-scaling-groups.html",
+        "https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html"
+      ]
+    },
+    {
+      "id": "c06",
+      "title": "Storage: objects, disks, files, and retention",
+      "topics": 3,
+      "newChecks": 6,
+      "appliedScenarios": 6,
+      "testQuestions": 12,
+      "topicNames": [
+        "Object, block, and file storage",
+        "Performance and storage tiers",
+        "Versioning, Object Lock, and lifecycle"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+        "https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html",
+        "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html",
+        "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html",
+        "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html",
+        "https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volume-types.html",
+        "https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html",
+        "https://docs.aws.amazon.com/fsx/latest/WindowsGuide/what-is.html"
+      ]
+    },
+    {
+      "id": "c07",
+      "title": "Relational databases, Aurora, and caching",
+      "topics": 3,
+      "newChecks": 6,
+      "appliedScenarios": 7,
+      "testQuestions": 13,
+      "topicNames": [
+        "Relational data and RDS",
+        "Multi-AZ, replicas, and Aurora",
+        "Caches and database connections"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html",
+        "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html",
+        "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html",
+        "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.AuroraHighAvailability.html",
+        "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/WhatIs.html",
+        "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-proxy.html"
+      ]
+    },
+    {
+      "id": "c08",
+      "title": "DynamoDB and distributed data choices",
+      "topics": 3,
+      "newChecks": 6,
+      "appliedScenarios": 4,
+      "testQuestions": 10,
+      "topicNames": [
+        "Keys, queries, and indexes",
+        "Read consistency and freshness",
+        "Capacity, TTL, and global replication"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html",
+        "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-design.html",
+        "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.ReadConsistency.html",
+        "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/capacity-mode.html",
+        "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/TTL.html",
+        "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GlobalTables.html"
+      ]
+    },
+    {
+      "id": "c09",
+      "title": "Queues, events, and workflows",
+      "topics": 3,
+      "newChecks": 6,
+      "appliedScenarios": 5,
+      "testQuestions": 11,
+      "topicNames": [
+        "SQS and reliable workers",
+        "Fanout and content-based routing",
+        "FIFO ordering and Step Functions"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html",
+        "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/standard-queues-at-least-once-delivery.html",
+        "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/FIFO-queues-understanding-logic.html",
+        "https://docs.aws.amazon.com/sns/latest/dg/sns-sqs-as-subscriber.html",
+        "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html",
+        "https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html"
+      ]
+    },
+    {
+      "id": "c10",
+      "title": "Serverless, containers, and resilient application design",
+      "topics": 3,
+      "newChecks": 6,
+      "appliedScenarios": 2,
+      "testQuestions": 8,
+      "topicNames": [
+        "Lambda and event-driven execution",
+        "Containers, ECS, and Fargate",
+        "State, retries, and immutable replacement"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
+        "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html",
+        "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.html",
+        "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html",
+        "https://docs.aws.amazon.com/autoscaling/ec2/userguide/auto-scaling-groups.html"
+      ]
+    },
+    {
+      "id": "c11",
+      "title": "Global delivery, DNS, and hybrid connectivity",
+      "topics": 3,
+      "newChecks": 6,
+      "appliedScenarios": 4,
+      "testQuestions": 10,
+      "topicNames": [
+        "CloudFront and private content",
+        "Route 53 policies and failover behavior",
+        "VPN, Direct Connect, peering, and transit"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html",
+        "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3.html",
+        "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/PrivateContent.html",
+        "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html",
+        "https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html",
+        "https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html",
+        "https://docs.aws.amazon.com/vpc/latest/tgw/what-is-transit-gateway.html",
+        "https://docs.aws.amazon.com/vpc/latest/privatelink/concepts.html"
+      ]
+    },
+    {
+      "id": "c12",
+      "title": "Backup, disaster recovery, RTO, and RPO",
+      "topics": 3,
+      "newChecks": 6,
+      "appliedScenarios": 4,
+      "testQuestions": 10,
+      "topicNames": [
+        "What backup protects that replication does not",
+        "RTO and RPO without confusion",
+        "Backup/restore, pilot light, warm standby, active-active"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html",
+        "https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html",
+        "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html"
+      ]
+    },
+    {
+      "id": "c13",
+      "title": "Observability, governance, and layered security",
+      "topics": 3,
+      "newChecks": 6,
+      "appliedScenarios": 3,
+      "testQuestions": 9,
+      "topicNames": [
+        "Metrics, logs, alarms, and diagnosis",
+        "CloudTrail, Config, and organization guardrails",
+        "Web protection and layered boundaries"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html",
+        "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html",
+        "https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.html",
+        "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html",
+        "https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html",
+        "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html",
+        "https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html"
+      ]
+    },
+    {
+      "id": "c14",
+      "title": "Migration, data transfer, and analytics",
+      "topics": 3,
+      "newChecks": 6,
+      "appliedScenarios": 4,
+      "testQuestions": 10,
+      "topicNames": [
+        "Files, database migration, and client protocols",
+        "Streams, delivery, and independent consumers",
+        "Glue, Athena, and efficient data layouts"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/datasync/latest/userguide/what-is-datasync.html",
+        "https://docs.aws.amazon.com/dms/latest/userguide/Welcome.html",
+        "https://docs.aws.amazon.com/transfer/latest/userguide/what-is-aws-transfer-family.html",
+        "https://docs.aws.amazon.com/streams/latest/dev/introduction.html",
+        "https://docs.aws.amazon.com/firehose/latest/dev/what-is-this-service.html",
+        "https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html",
+        "https://docs.aws.amazon.com/athena/latest/ug/what-is.html",
+        "https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-data-optimization-techniques.html"
+      ]
+    },
+    {
+      "id": "c15",
+      "title": "Cost optimization without breaking requirements",
+      "topics": 3,
+      "newChecks": 6,
+      "appliedScenarios": 7,
+      "testQuestions": 13,
+      "topicNames": [
+        "On-Demand, Spot, commitments, and utilization",
+        "Storage, database, and network economics",
+        "Cost Explorer, budgets, tags, and review"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-spot-instances.html",
+        "https://docs.aws.amazon.com/savingsplans/latest/userguide/what-is-savings-plans.html",
+        "https://docs.aws.amazon.com/cost-management/latest/userguide/ce-what-is.html",
+        "https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html",
+        "https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html",
+        "https://docs.aws.amazon.com/vpc/latest/privatelink/gateway-endpoints.html",
+        "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/capacity-mode.html"
+      ]
+    },
+    {
+      "id": "c16",
+      "title": "From requirements to a complete exam architecture",
+      "topics": 3,
+      "newChecks": 6,
+      "appliedScenarios": 0,
+      "testQuestions": 6,
+      "topicNames": [
+        "Read the scenario like an architect",
+        "Capstone: a secure, resilient order service",
+        "Build a revision loop and explain your choices"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html",
+        "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.html",
+        "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html",
+        "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/standard-queues-at-least-once-delivery.html",
+        "https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html",
+        "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html"
+      ]
+    },
+    {
+      "id": "c17",
+      "title": "API Gateway, frontend integration, and API security",
+      "topics": 3,
+      "newChecks": 10,
+      "appliedScenarios": 0,
+      "testQuestions": 10,
+      "topicNames": [
+        "API types, integrations, and response paths",
+        "Authentication, authorization, throttling, and safe retries",
+        "Frontend delivery and mobile testing"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html",
+        "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
+        "https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html",
+        "https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html",
+        "https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html",
+        "https://docs.aws.amazon.com/devicefarm/latest/developerguide/welcome.html"
+      ]
+    },
+    {
+      "id": "c18",
+      "title": "Infrastructure as code and managed operations",
+      "topics": 3,
+      "newChecks": 8,
+      "appliedScenarios": 0,
+      "testQuestions": 8,
+      "topicNames": [
+        "CloudFormation stacks, dependencies, and safe changes",
+        "Systems Manager sessions, patching, and automation",
+        "Console, CLI, permissions, and drift"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html",
+        "https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html",
+        "https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/what-is.html",
+        "https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html"
+      ]
+    },
+    {
+      "id": "c19",
+      "title": "Account governance, directories, and resource sharing",
+      "topics": 3,
+      "newChecks": 10,
+      "appliedScenarios": 0,
+      "testQuestions": 10,
+      "topicNames": [
+        "Organizations, OUs, and Control Tower",
+        "Approved products and directory-dependent applications",
+        "RAM, licensing, and shared-resource boundaries"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_introduction.html",
+        "https://docs.aws.amazon.com/controltower/latest/userguide/what-is-control-tower.html",
+        "https://docs.aws.amazon.com/servicecatalog/latest/adminguide/introduction.html",
+        "https://docs.aws.amazon.com/directoryservice/latest/admin-guide/what_is.html",
+        "https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html",
+        "https://docs.aws.amazon.com/ram/latest/userguide/what-is.html",
+        "https://docs.aws.amazon.com/license-manager/latest/userguide/license-manager.html"
+      ]
+    },
+    {
+      "id": "c20",
+      "title": "Threat detection, data discovery, and protection",
+      "topics": 3,
+      "newChecks": 12,
+      "appliedScenarios": 0,
+      "testQuestions": 12,
+      "topicNames": [
+        "GuardDuty, Inspector, and Macie",
+        "Shield, WAF, Network Firewall, and Firewall Manager",
+        "Security Hub and Detective investigation workflows"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html",
+        "https://docs.aws.amazon.com/inspector/latest/user/what-is-inspector.html",
+        "https://docs.aws.amazon.com/macie/latest/user/what-is-macie.html",
+        "https://docs.aws.amazon.com/waf/latest/developerguide/shield-chapter.html",
+        "https://docs.aws.amazon.com/network-firewall/latest/developerguide/what-is-aws-network-firewall.html",
+        "https://docs.aws.amazon.com/waf/latest/developerguide/fms-chapter.html",
+        "https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html",
+        "https://docs.aws.amazon.com/securityhub/latest/userguide/what-is-securityhub.html",
+        "https://docs.aws.amazon.com/detective/latest/userguide/what-is-detective.html"
+      ]
+    },
+    {
+      "id": "c21",
+      "title": "Certificates, cryptography, and compliance evidence",
+      "topics": 3,
+      "newChecks": 10,
+      "appliedScenarios": 0,
+      "testQuestions": 10,
+      "topicNames": [
+        "ACM certificates, renewal, and TLS boundaries",
+        "KMS versus dedicated HSM control",
+        "Data classification, residency, and Artifact"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html",
+        "https://docs.aws.amazon.com/kms/latest/developerguide/key-policies.html",
+        "https://docs.aws.amazon.com/cloudhsm/latest/userguide/introduction.html",
+        "https://docs.aws.amazon.com/artifact/latest/ug/what-is-aws-artifact.html",
+        "https://docs.aws.amazon.com/macie/latest/user/what-is-macie.html",
+        "https://docs.aws.amazon.com/kms/latest/developerguide/rotate-keys.html",
+        "https://docs.aws.amazon.com/acm/latest/userguide/managed-renewal.html"
+      ]
+    },
+    {
+      "id": "c22",
+      "title": "Advanced global, hybrid, and IP-network decisions",
+      "topics": 3,
+      "newChecks": 11,
+      "appliedScenarios": 0,
+      "testQuestions": 11,
+      "topicNames": [
+        "Global Accelerator versus CloudFront",
+        "Remote-user VPN and site connectivity",
+        "CIDR, IPv6, routing, and network segmentation"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/global-accelerator/latest/dg/what-is-global-accelerator.html",
+        "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html",
+        "https://docs.aws.amazon.com/vpn/latest/clientvpn-admin/what-is.html",
+        "https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html",
+        "https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html",
+        "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html",
+        "https://docs.aws.amazon.com/vpc/latest/tgw/what-is-transit-gateway.html",
+        "https://docs.aws.amazon.com/vpc/latest/privatelink/concepts.html",
+        "https://docs.aws.amazon.com/vpc/latest/userguide/egress-only-internet-gateway.html"
+      ]
+    },
+    {
+      "id": "c23",
+      "title": "Hybrid storage and all FSx families",
+      "topics": 3,
+      "newChecks": 10,
+      "appliedScenarios": 0,
+      "testQuestions": 10,
+      "topicNames": [
+        "File, volume, and tape gateway patterns",
+        "File sharing, throughput, and availability selection",
+        "Windows, Lustre, ONTAP, and OpenZFS differences"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/storagegateway/latest/userguide/WhatIsStorageGateway.html",
+        "https://docs.aws.amazon.com/datasync/latest/userguide/what-is-datasync.html",
+        "https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html",
+        "https://docs.aws.amazon.com/fsx/latest/WindowsGuide/what-is.html",
+        "https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volume-types.html",
+        "https://docs.aws.amazon.com/fsx/latest/LustreGuide/what-is.html",
+        "https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html",
+        "https://docs.aws.amazon.com/fsx/latest/OpenZFSGuide/what-is-fsx.html"
+      ]
+    },
+    {
+      "id": "c24",
+      "title": "Container registries, Kubernetes, and external execution",
+      "topics": 3,
+      "newChecks": 11,
+      "appliedScenarios": 0,
+      "testQuestions": 11,
+      "topicNames": [
+        "ECR image lifecycle and ECS workload identities",
+        "EKS Kubernetes responsibilities and placement",
+        "ECS Anywhere, EKS Anywhere, and EKS Distro"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/AmazonECR/latest/userguide/what-is-ecr.html",
+        "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html",
+        "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.html",
+        "https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html",
+        "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-anywhere.html",
+        "https://aws.amazon.com/eks/eks-anywhere/",
+        "https://aws.amazon.com/eks/eks-distro/"
+      ]
+    },
+    {
+      "id": "c25",
+      "title": "Specialist compute and workload placement",
+      "topics": 3,
+      "newChecks": 11,
+      "appliedScenarios": 0,
+      "testQuestions": 11,
+      "topicNames": [
+        "Batch jobs and managed web environments",
+        "Local and telecommunications placement",
+        "Reusable applications and media pipelines"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html",
+        "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html",
+        "https://docs.aws.amazon.com/outposts/latest/userguide/what-is-outposts.html",
+        "https://docs.aws.amazon.com/wavelength/latest/developerguide/what-is-wavelength.html",
+        "https://aws.amazon.com/vmware/vmwarecloudonaws/",
+        "https://docs.aws.amazon.com/serverlessrepo/latest/devguide/what-is-serverlessrepo.html",
+        "https://docs.aws.amazon.com/es_es/elastictranscoder/latest/developerguide/history.html",
+        "https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/what-is-kinesis-video.html"
+      ]
+    },
+    {
+      "id": "c26",
+      "title": "Analytics, search, and governed data lakes",
+      "topics": 3,
+      "newChecks": 9,
+      "appliedScenarios": 0,
+      "testQuestions": 9,
+      "topicNames": [
+        "Distributed processing with EMR",
+        "Warehouse SQL versus search indexes",
+        "Lake permissions, external data, and dashboards"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-what-is-emr.html",
+        "https://docs.aws.amazon.com/redshift/latest/mgmt/welcome.html",
+        "https://docs.aws.amazon.com/opensearch-service/latest/developerguide/what-is.html",
+        "https://docs.aws.amazon.com/lake-formation/latest/dg/what-is-lake-formation.html",
+        "https://docs.aws.amazon.com/quicksight/latest/user/welcome.html",
+        "https://docs.aws.amazon.com/data-exchange/latest/userguide/what-is.html"
+      ]
+    },
+    {
+      "id": "c27",
+      "title": "Specialist database decisions",
+      "topics": 3,
+      "newChecks": 8,
+      "appliedScenarios": 0,
+      "testQuestions": 8,
+      "topicNames": [
+        "Aurora capacity and connection behavior",
+        "Document and Cassandra compatibility",
+        "Graph relationships and database selection"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.html",
+        "https://docs.aws.amazon.com/documentdb/latest/developerguide/what-is.html",
+        "https://docs.aws.amazon.com/keyspaces/latest/devguide/what-is-keyspaces.html",
+        "https://docs.aws.amazon.com/neptune/latest/userguide/intro.html",
+        "https://docs.aws.amazon.com/redshift/latest/dg/c_columnar_storage_disk_mem_mgmnt.html"
+      ]
+    },
+    {
+      "id": "c28",
+      "title": "Migration and integration with compatibility",
+      "topics": 3,
+      "newChecks": 8,
+      "appliedScenarios": 0,
+      "testQuestions": 8,
+      "topicNames": [
+        "Rehosting servers and rehearsing cutover",
+        "Offline transfer and constrained networks",
+        "Broker compatibility, Kafka, and SaaS flows"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/mgn/latest/ug/what-is-application-migration-service.html",
+        "https://docs.aws.amazon.com/snowball/latest/developer-guide/whatisedge.html",
+        "https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/welcome.html",
+        "https://docs.aws.amazon.com/msk/latest/developerguide/what-is-msk.html",
+        "https://docs.aws.amazon.com/appflow/latest/userguide/what-is-appflow.html"
+      ]
+    },
+    {
+      "id": "c29",
+      "title": "Observability and operational evidence",
+      "topics": 3,
+      "newChecks": 7,
+      "appliedScenarios": 0,
+      "testQuestions": 7,
+      "topicNames": [
+        "Tracing a request across dependencies",
+        "Metrics backends and dashboard ownership",
+        "Provider health, quotas, and failure preparation"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/xray/latest/devguide/aws-xray.html",
+        "https://docs.aws.amazon.com/grafana/latest/userguide/what-is-Amazon-Managed-Service-Grafana.html",
+        "https://docs.aws.amazon.com/prometheus/latest/userguide/what-is-Amazon-Managed-Service-Prometheus.html",
+        "https://docs.aws.amazon.com/health/latest/ug/what-is-aws-health.html"
+      ]
+    },
+    {
+      "id": "c30",
+      "title": "Recognizing managed AI capabilities",
+      "topics": 3,
+      "newChecks": 11,
+      "appliedScenarios": 0,
+      "testQuestions": 11,
+      "topicNames": [
+        "Documents, language insights, and translation",
+        "Speech directions and conversational interfaces",
+        "Visual analysis versus custom model development"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/comprehend/latest/dg/what-is.html",
+        "https://docs.aws.amazon.com/textract/latest/dg/what-is.html",
+        "https://docs.aws.amazon.com/translate/latest/dg/what-is.html",
+        "https://docs.aws.amazon.com/lexv2/latest/dg/what-is.html",
+        "https://docs.aws.amazon.com/polly/latest/dg/what-is.html",
+        "https://docs.aws.amazon.com/transcribe/latest/dg/what-is.html",
+        "https://docs.aws.amazon.com/rekognition/latest/dg/what-is.html",
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html"
+      ]
+    },
+    {
+      "id": "c31",
+      "title": "Cost evidence and optimization decisions",
+      "topics": 3,
+      "newChecks": 10,
+      "appliedScenarios": 0,
+      "testQuestions": 10,
+      "topicNames": [
+        "Detailed billing, allocation, and storage requests",
+        "Rightsizing and coordinated scaling",
+        "Recommendation reviews and network cost"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/cur/latest/userguide/what-is-cur.html",
+        "https://docs.aws.amazon.com/autoscaling/plans/userguide/what-is-a-scaling-plan.html",
+        "https://docs.aws.amazon.com/compute-optimizer/latest/ug/what-is-compute-optimizer.html",
+        "https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor.html",
+        "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Hibernate.html",
+        "https://docs.aws.amazon.com/AmazonS3/latest/userguide/RequesterPaysBuckets.html",
+        "https://docs.aws.amazon.com/vpc/latest/userguide/VPC_NAT_Instance.html",
+        "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html",
+        "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-hibernate-overview.html"
+      ]
+    },
+    {
+      "id": "c32",
+      "title": "Putting the complete architecture together",
+      "topics": 3,
+      "newChecks": 10,
+      "appliedScenarios": 0,
+      "testQuestions": 10,
+      "topicNames": [
+        "Availability, retries, and dependency failures",
+        "Security, recovery, and data consistency together",
+        "Well-Architected review and honest exam readiness"
+      ],
+      "references": [
+        "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html",
+        "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html",
+        "https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html",
+        "https://docs.aws.amazon.com/kms/latest/developerguide/key-policies.html",
+        "https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html",
+        "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html",
+        "https://docs.aws.amazon.com/wellarchitected/latest/userguide/tool.html",
+        "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.html"
+      ]
+    }
+  ],
+  "validation": {
+    "schema": "252 authored chapter checks and 118 atlas checks validated; 66 existing applied scenarios remain in chapter tests",
+    "sourceRetrieval": {
+      "checked": 161,
+      "total": 161
+    },
+    "editorial": {
+      "reviewer": "AI",
+      "status": "capability comparison completed",
+      "humanExpertReview": false,
+      "notes": "AI editorial capability comparison completed on 2026-10-14. Checked the stated service role, requirement boundaries and answer explanations against official documentation. Revised overlapping service-selection stems, separated compute/database task mapping, verified legacy notices, and checked rotation, TLS renewal, IPv6, filesystem families, hibernation and Requester Pays details. This is not human expert review, psychometric calibration, or verification of every feature of each service."
+    },
+    "flaggedForRevision": 0
+  }
+}

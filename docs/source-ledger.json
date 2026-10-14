@@ -1,0 +1,674 @@
+[
+  {
+    "key": "alb",
+    "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 6186
+  },
+  {
+    "key": "albfeatures",
+    "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 9441
+  },
+  {
+    "key": "asg",
+    "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/auto-scaling-groups.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/auto-scaling-groups.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 4216
+  },
+  {
+    "key": "athena",
+    "url": "https://docs.aws.amazon.com/athena/latest/ug/what-is.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/athena/latest/ug/what-is.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 1844
+  },
+  {
+    "key": "aurora",
+    "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.AuroraHighAvailability.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.AuroraHighAvailability.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 9338
+  },
+  {
+    "key": "backlog",
+    "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-using-sqs-queue.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-using-sqs-queue.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 6820
+  },
+  {
+    "key": "backup",
+    "url": "https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 13378
+  },
+  {
+    "key": "budgets",
+    "url": "https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 5795
+  },
+  {
+    "key": "cache",
+    "url": "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/WhatIs.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/WhatIs.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 4933
+  },
+  {
+    "key": "cloudfront",
+    "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 8340
+  },
+  {
+    "key": "cloudtrail",
+    "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 7293
+  },
+  {
+    "key": "cloudwatch",
+    "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 11402
+  },
+  {
+    "key": "cognito",
+    "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 19648
+  },
+  {
+    "key": "config",
+    "url": "https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 6568
+  },
+  {
+    "key": "cost",
+    "url": "https://docs.aws.amazon.com/cost-management/latest/userguide/ce-what-is.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/cost-management/latest/userguide/ce-what-is.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 3511
+  },
+  {
+    "key": "crosskey",
+    "url": "https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-modifying-external-accounts.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-modifying-external-accounts.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 15007
+  },
+  {
+    "key": "datasync",
+    "url": "https://docs.aws.amazon.com/datasync/latest/userguide/what-is-datasync.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/datasync/latest/userguide/what-is-datasync.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 4085
+  },
+  {
+    "key": "ddbcapacity",
+    "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/capacity-mode.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/capacity-mode.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 3033
+  },
+  {
+    "key": "dlq",
+    "url": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 4645
+  },
+  {
+    "key": "dms",
+    "url": "https://docs.aws.amazon.com/dms/latest/userguide/Welcome.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/dms/latest/userguide/Welcome.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 6221
+  },
+  {
+    "key": "dr",
+    "url": "https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 27980
+  },
+  {
+    "key": "dx",
+    "url": "https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 7210
+  },
+  {
+    "key": "dynamo",
+    "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.ReadConsistency.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.ReadConsistency.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 3479
+  },
+  {
+    "key": "ebs",
+    "url": "https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volume-types.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volume-types.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 5914
+  },
+  {
+    "key": "ec2role",
+    "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 8251
+  },
+  {
+    "key": "ecsrole",
+    "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task-iam-roles.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task-iam-roles.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 22931
+  },
+  {
+    "key": "efs",
+    "url": "https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 5068
+  },
+  {
+    "key": "endpoints",
+    "url": "https://docs.aws.amazon.com/vpc/latest/privatelink/concepts.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/vpc/latest/privatelink/concepts.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 10750
+  },
+  {
+    "key": "events",
+    "url": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 3522
+  },
+  {
+    "key": "fargate",
+    "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 6101
+  },
+  {
+    "key": "fifo",
+    "url": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/FIFO-queues-understanding-logic.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/FIFO-queues-understanding-logic.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 6498
+  },
+  {
+    "key": "firehose",
+    "url": "https://docs.aws.amazon.com/firehose/latest/dev/what-is-this-service.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/firehose/latest/dev/what-is-this-service.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 3463
+  },
+  {
+    "key": "fsx",
+    "url": "https://docs.aws.amazon.com/fsx/latest/WindowsGuide/what-is.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/fsx/latest/WindowsGuide/what-is.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 10931
+  },
+  {
+    "key": "fsxha",
+    "url": "https://docs.aws.amazon.com/fsx/latest/WindowsGuide/high-availability-multiAZ.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/fsx/latest/WindowsGuide/high-availability-multiAZ.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 10685
+  },
+  {
+    "key": "gateway",
+    "url": "https://docs.aws.amazon.com/vpc/latest/privatelink/gateway-endpoints.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/vpc/latest/privatelink/gateway-endpoints.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 8644
+  },
+  {
+    "key": "global",
+    "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GlobalTables.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GlobalTables.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 4549
+  },
+  {
+    "key": "glue",
+    "url": "https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 7516
+  },
+  {
+    "key": "gwlbfeatures",
+    "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/gateway/introduction.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/elasticloadbalancing/latest/gateway/introduction.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 4282
+  },
+  {
+    "key": "health",
+    "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/health-checks-overview.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/health-checks-overview.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 13305
+  },
+  {
+    "key": "identity",
+    "url": "https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 5910
+  },
+  {
+    "key": "kinesis",
+    "url": "https://docs.aws.amazon.com/streams/latest/dev/introduction.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/streams/latest/dev/introduction.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 5318
+  },
+  {
+    "key": "kms",
+    "url": "https://docs.aws.amazon.com/kms/latest/developerguide/key-policies.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/kms/latest/developerguide/key-policies.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 1998
+  },
+  {
+    "key": "lambda",
+    "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 5846
+  },
+  {
+    "key": "lambdarole",
+    "url": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-intro-execution-role.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-intro-execution-role.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 6670
+  },
+  {
+    "key": "lifecycle",
+    "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 6400
+  },
+  {
+    "key": "lock",
+    "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 15417
+  },
+  {
+    "key": "nacl",
+    "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 4817
+  },
+  {
+    "key": "nat",
+    "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 3746
+  },
+  {
+    "key": "nlbfeatures",
+    "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/network/introduction.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/elasticloadbalancing/latest/network/introduction.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 8380
+  },
+  {
+    "key": "oac",
+    "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 23260
+  },
+  {
+    "key": "partition",
+    "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-design.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-design.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 2429
+  },
+  {
+    "key": "peering",
+    "url": "https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 3025
+  },
+  {
+    "key": "policies",
+    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 3931
+  },
+  {
+    "key": "proxy",
+    "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-proxy.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-proxy.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 16002
+  },
+  {
+    "key": "rds",
+    "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 2359
+  },
+  {
+    "key": "replicas",
+    "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 9236
+  },
+  {
+    "key": "roles",
+    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 15301
+  },
+  {
+    "key": "route53",
+    "url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 2601
+  },
+  {
+    "key": "s3classes",
+    "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 18433
+  },
+  {
+    "key": "s3security",
+    "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/security-best-practices.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/security-best-practices.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 33287
+  },
+  {
+    "key": "s3version",
+    "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 4855
+  },
+  {
+    "key": "savings",
+    "url": "https://docs.aws.amazon.com/savingsplans/latest/userguide/what-is-savings-plans.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/savingsplans/latest/userguide/what-is-savings-plans.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 2363
+  },
+  {
+    "key": "scaling",
+    "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-scaling-target-tracking.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-scaling-target-tracking.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 13442
+  },
+  {
+    "key": "scan",
+    "url": "https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-data-optimization-techniques.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-data-optimization-techniques.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 19054
+  },
+  {
+    "key": "schedule",
+    "url": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-scheduled-scaling.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-scheduled-scaling.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 8238
+  },
+  {
+    "key": "scp",
+    "url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 9157
+  },
+  {
+    "key": "secretget",
+    "url": "https://docs.aws.amazon.com/secretsmanager/latest/userguide/retrieving-secrets.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/secretsmanager/latest/userguide/retrieving-secrets.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 1052
+  },
+  {
+    "key": "secrets",
+    "url": "https://docs.aws.amazon.com/secretsmanager/latest/userguide/rotating-secrets.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/secretsmanager/latest/userguide/rotating-secrets.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 1455
+  },
+  {
+    "key": "sg",
+    "url": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 6043
+  },
+  {
+    "key": "signed",
+    "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/PrivateContent.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/PrivateContent.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 2906
+  },
+  {
+    "key": "sns",
+    "url": "https://docs.aws.amazon.com/sns/latest/dg/sns-sqs-as-subscriber.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/sns/latest/dg/sns-sqs-as-subscriber.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 2453
+  },
+  {
+    "key": "spot",
+    "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-spot-instances.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-spot-instances.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 6246
+  },
+  {
+    "key": "sqs",
+    "url": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 6428
+  },
+  {
+    "key": "sqsreliable",
+    "url": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/standard-queues-at-least-once-delivery.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/standard-queues-at-least-once-delivery.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 1161
+  },
+  {
+    "key": "steps",
+    "url": "https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 10002
+  },
+  {
+    "key": "targets",
+    "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-target-groups.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 24186
+  },
+  {
+    "key": "tgw",
+    "url": "https://docs.aws.amazon.com/vpc/latest/tgw/what-is-transit-gateway.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/vpc/latest/tgw/what-is-transit-gateway.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 5412
+  },
+  {
+    "key": "tls",
+    "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 7043
+  },
+  {
+    "key": "transfer",
+    "url": "https://docs.aws.amazon.com/transfer/latest/userguide/what-is-aws-transfer-family.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/transfer/latest/userguide/what-is-aws-transfer-family.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 11244
+  },
+  {
+    "key": "ttl",
+    "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/TTL.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/TTL.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 3064
+  },
+  {
+    "key": "visibility",
+    "url": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-visibility-timeout.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-visibility-timeout.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 8989
+  },
+  {
+    "key": "vpn",
+    "url": "https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 6757
+  },
+  {
+    "key": "waf",
+    "url": "https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 7562
+  },
+  {
+    "key": "wafrate",
+    "url": "https://docs.aws.amazon.com/waf/latest/developerguide/waf-rule-statement-type-rate-based.html",
+    "resolvedUrl": "https://docs.aws.amazon.com/waf/latest/developerguide/waf-rule-statement-type-rate-based.html",
+    "date": "2026-10-13",
+    "status": "retrieved",
+    "length": 3259
+  }
+]

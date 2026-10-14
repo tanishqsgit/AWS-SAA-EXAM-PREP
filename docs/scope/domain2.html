@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+    <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Content Domain 2: Design Resilient Architectures - AWS Certified Solutions Architect - Associate</title><meta name="viewport" content="width=device-width,initial-scale=1" /><meta name="assets_root" content="/assets" /><meta name="target_state" content="solutions-architect-associate-03-domain2" /><meta name="default_state" content="solutions-architect-associate-03-domain2" /><link rel="icon" type="image/ico" href="/assets/images/favicon.ico" /><link rel="shortcut icon" type="image/ico" href="/assets/images/favicon.ico" /><link rel="canonical" href="https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" /><meta name="description" content="Tasks Knowledge of: API creation and management (for example, Amazon API Gateway, REST API) AWS managed services with appropriate use cases (for example, AWS Transfer Family, Amazon SQS, AWS Secrets Manager) Caching strategies Design principles for microservices (for example, stateless workloads compared with stateful workloads)" /><meta name="deployment_region" content="IAD" /><meta name="product" content="AWS Certified Solutions Architect - Associate" /><meta name="guide" content="Exam Guide (SAA-C03)" /><meta name="abstract" content="Exam guide for the AWS Certified Solutions Architect - Associate (SAA-C03) certification exam" /><meta name="guide-locale" content="en_us" /><meta name="tocs" content="toc-contents.json" /><link rel="canonical" href="https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" /><link rel="alternate" href="https://docs.aws.amazon.com/id_id/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" hreflang="id-id" /><link rel="alternate" href="https://docs.aws.amazon.com/id_id/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" hreflang="id" /><link rel="alternate" href="https://docs.aws.amazon.com/de_de/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" hreflang="de-de" /><link rel="alternate" href="https://docs.aws.amazon.com/de_de/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" hreflang="de" /><link rel="alternate" href="https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" hreflang="en-us" /><link rel="alternate" href="https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" hreflang="en" /><link rel="alternate" href="https://docs.aws.amazon.com/es_es/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" hreflang="es-es" /><link rel="alternate" href="https://docs.aws.amazon.com/es_es/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" hreflang="es" /><link rel="alternate" href="https://docs.aws.amazon.com/fr_fr/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" hreflang="fr-fr" /><link rel="alternate" href="https://docs.aws.amazon.com/fr_fr/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" hreflang="fr" /><link rel="alternate" href="https://docs.aws.amazon.com/it_it/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" hreflang="it-it" /><link rel="alternate" href="https://docs.aws.amazon.com/it_it/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" hreflang="it" /><link rel="alternate" href="https://docs.aws.amazon.com/ja_jp/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" hreflang="ja-jp" /><link rel="alternate" href="https://docs.aws.amazon.com/ja_jp/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" hreflang="ja" /><link rel="alternate" href="https://docs.aws.amazon.com/ko_kr/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" hreflang="ko-kr" /><link rel="alternate" href="https://docs.aws.amazon.com/ko_kr/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" hreflang="ko" /><link rel="alternate" href="https://docs.aws.amazon.com/pt_br/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" hreflang="pt-br" /><link rel="alternate" href="https://docs.aws.amazon.com/pt_br/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" hreflang="pt" /><link rel="alternate" href="https://docs.aws.amazon.com/zh_cn/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" hreflang="zh-cn" /><link rel="alternate" href="https://docs.aws.amazon.com/zh_tw/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" hreflang="zh-tw" /><link rel="alternate" href="https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" hreflang="x-default" /><meta name="feedback-item" content="Certification" /><meta name="this_doc_product" content="AWS Certified Solutions Architect - Associate" /><meta name="this_doc_guide" content="Exam Guide (SAA-C03)" /><head xmlns="http://www.w3.org/1999/xhtml"> <script defer="" src="/assets/r/awsdocs-doc-page.2.0.0.js"></script><link href="/assets/r/awsdocs-doc-page.2.0.0.css" rel="stylesheet"/></head>
+<script defer="" id="awsc-panorama-bundle" type="text/javascript" src="https://prod.pa.cdn.uis.awsstatic.com/panorama-nav-init.js" data-config="{'appEntity':'aws-documentation','region':'us-east-1','service':'aws-certification/latest/examguides'}"></script><meta id="panorama-serviceSubSection" value="Exam Guide (SAA-C03)" /><meta id="panorama-serviceConsolePage" value="Content Domain 2: Design Resilient Architectures" /><meta name="uiVersion" content="2024.10" /></head><body class="awsdocs awsui"><div class="awsdocs-container"><p><a href="solutions-architect-associate-03-domain2.md">View a markdown version of this page</a></p><awsdocs-header></awsdocs-header><awsui-app-layout id="app-layout" class="awsui-util-no-gutters" ng-controller="ContentController as $ctrl" header-selector="awsdocs-header" navigation-hide="false" navigation-width="$ctrl.navWidth" navigation-open="$ctrl.navOpen" navigation-change="$ctrl.onNavChange($event)" tools-hide="$ctrl.hideTools" tools-width="$ctrl.toolsWidth" tools-open="$ctrl.toolsOpen" tools-change="$ctrl.onToolsChange($event)"><div id="guide-toc" dom-region="navigation"><awsdocs-toc></awsdocs-toc></div><div id="main-column" dom-region="content" tabindex="-1"><awsdocs-view class="awsdocs-view"><div id="awsdocs-content"><head><title>Content Domain 2: Design Resilient Architectures - AWS Certified Solutions Architect - Associate</title><meta name="pdf" content="/pdfs/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf#solutions-architect-associate-03-domain2" /><meta name="forums" content="https://repost.aws/search/content?globalSearch=AWS Certification" /><meta name="feedback" content="https://docs.aws.amazon.com/forms/aws-doc-feedback?hidden_service_name=Certification&amp;topic_url=https://docs.aws.amazon.com/en_us/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" /><meta name="feedback-yes" content="feedbackyes.html?topic_url=https://docs.aws.amazon.com/en_us/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" /><meta name="feedback-no" content="feedbackno.html?topic_url=https://docs.aws.amazon.com/en_us/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html" /><meta name="keywords" content="AWS Certified Solutions Architect,SAA-C03,aws-certification,associate,solutions architect" /><link rel="alternate" type="text/markdown" href="solutions-architect-associate-03-domain2.md" title="Markdown version" /><script type="application/ld+json">
+{
+    "@context" : "https://schema.org",
+    "@type" : "BreadcrumbList",
+    "itemListElement" : [
+      {
+        "@type" : "ListItem",
+        "position" : 1,
+        "name" : "AWS",
+        "item" : "https://aws.amazon.com"
+      },
+      {
+        "@type" : "ListItem",
+        "position" : 2,
+        "name" : "AWS Certification",
+        "item" : "https://docs.aws.amazon.com/aws-certification/latest/examguides/index.html"
+      },
+      {
+        "@type" : "ListItem",
+        "position" : 3,
+        "name" : "Exam Guide (SAA-C03)",
+        "item" : "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03"
+      },
+      {
+        "@type" : "ListItem",
+        "position" : 4,
+        "name" : "AWS Certified Solutions Architect - Associate (SAA-C03)",
+        "item" : "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.html"
+      },
+      {
+        "@type" : "ListItem",
+        "position" : 5,
+        "name" : "Content Domain 2: Design Resilient Architectures",
+        "item" : "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.html"
+      }
+    ]
+}
+</script></head><body><div id="main"><div style="display: none"><a href="/pdfs/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf#solutions-architect-associate-03-domain2" target="_blank" rel="noopener noreferrer" title="Open PDF"></a></div><div id="breadcrumbs" class="breadcrumb"><a href="/index.html">Documentation</a><a href="/aws-certification/latest/examguides/index.html">AWS Certification</a><a href="solutions-architect-associate-03.html">Exam Guide (SAA-C03)</a></div><div id="page-toc-src"><a href="#solutions-architect-associate-03-domain2-task1">Task 2.1: Design scalable and loosely coupled architectures</a><a href="#solutions-architect-associate-03-domain2-task2">Task 2.2: Design highly available and/or fault-tolerant architectures</a></div><div id="main-content" class="awsui-util-container"><div id="main-col-body"><awsdocs-language-banner data-service="$ctrl.pageService"></awsdocs-language-banner><h1 class="topictitle" id="solutions-architect-associate-03-domain2">Content Domain 2: Design Resilient Architectures</h1><div class="awsdocs-page-header-container"><awsdocs-page-header></awsdocs-page-header><awsdocs-filter-selector id="awsdocs-filter-selector"></awsdocs-filter-selector></div><div class="highlights" id="inline-topiclist"><h6>Tasks</h6><ul><li><p><a href="#solutions-architect-associate-03-domain2-task1">Task 2.1: Design scalable and loosely coupled architectures</a></p></li><li><p><a href="#solutions-architect-associate-03-domain2-task2">Task 2.2: Design highly available and/or fault-tolerant architectures</a></p></li></ul></div>
+    <h2 id="solutions-architect-associate-03-domain2-task1">Task 2.1: Design scalable and loosely coupled architectures</h2>
+    
+    <p>Knowledge of:</p>
+    <div class="itemizedlist">
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+    <ul class="itemizedlist"><li class="listitem"><p>API creation and management (for example, Amazon API Gateway, REST API)</p></li><li class="listitem"><p>AWS managed services with appropriate use cases (for example, AWS Transfer Family, Amazon SQS, AWS Secrets Manager)</p></li><li class="listitem"><p>Caching strategies</p></li><li class="listitem"><p>Design principles for microservices (for example, stateless workloads compared with stateful workloads)</p></li><li class="listitem"><p>Event-driven architectures</p></li><li class="listitem"><p>Horizontal scaling and vertical scaling</p></li><li class="listitem"><p>How to appropriately use edge accelerators (for example, content delivery network [CDN])</p></li><li class="listitem"><p>How to migrate applications into containers</p></li><li class="listitem"><p>Load balancing concepts (for example, Application Load Balancer [ALB])</p></li><li class="listitem"><p>Multi-tier architectures</p></li><li class="listitem"><p>Queuing and messaging concepts (for example, publish/subscribe)</p></li><li class="listitem"><p>Serverless technologies and patterns (for example, AWS Fargate, AWS Lambda)</p></li><li class="listitem"><p>Storage types with associated characteristics (for example, object, file, block)</p></li><li class="listitem"><p>The orchestration of containers (for example, Amazon ECS, Amazon EKS)</p></li><li class="listitem"><p>When to use read replicas</p></li><li class="listitem"><p>Workflow orchestration (for example, AWS Step Functions)</p></li></ul></div>
+    
+    <p>Skills in:</p>
+    <div class="itemizedlist">
+       
+       
+       
+       
+       
+       
+       
+    <ul class="itemizedlist"><li class="listitem"><p>Designing event-driven, microservice, and/or multi-tier architectures based on requirements</p></li><li class="listitem"><p>Determining scaling strategies for components used in an architecture design</p></li><li class="listitem"><p>Determining the AWS services required to achieve loose coupling based on requirements</p></li><li class="listitem"><p>Determining when to use containers</p></li><li class="listitem"><p>Determining when to use serverless technologies and patterns</p></li><li class="listitem"><p>Recommending appropriate compute, storage, networking, and database technologies based on requirements</p></li><li class="listitem"><p>Using purpose-built AWS services for workloads</p></li></ul></div>
+   
+    <h2 id="solutions-architect-associate-03-domain2-task2">Task 2.2: Design highly available and/or fault-tolerant architectures</h2>
+    
+    <p>Knowledge of:</p>
+    <div class="itemizedlist">
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+    <ul class="itemizedlist"><li class="listitem"><p>AWS global infrastructure (for example, Availability Zones, AWS Regions, Amazon Route 53)</p></li><li class="listitem"><p>AWS Managed Services (AMS) with appropriate use cases (for example, Amazon Comprehend, Amazon Polly)</p></li><li class="listitem"><p>Basic networking concepts (for example, route tables)</p></li><li class="listitem"><p>Disaster recovery (DR) strategies (for example, backup and restore, pilot light, warm standby, active-active failover, recovery point objective [RPO], recovery time objective [RTO])</p></li><li class="listitem"><p>Distributed design patterns</p></li><li class="listitem"><p>Failover strategies</p></li><li class="listitem"><p>Immutable infrastructure</p></li><li class="listitem"><p>Load balancing concepts (for example, ALB)</p></li><li class="listitem"><p>Proxy concepts (for example, Amazon RDS Proxy)</p></li><li class="listitem"><p>Service quotas and throttling (for example, how to configure the service quotas for a workload in a standby environment)</p></li><li class="listitem"><p>Storage options and characteristics (for example, durability, replication)</p></li><li class="listitem"><p>Workload visibility (for example, AWS X-Ray)</p></li></ul></div>
+    
+    <p>Skills in:</p>
+    <div class="itemizedlist">
+       
+       
+       
+       
+       
+       
+       
+       
+    <ul class="itemizedlist"><li class="listitem"><p>Determining automation strategies to ensure infrastructure integrity</p></li><li class="listitem"><p>Determining the AWS services required to provide a highly available and/or fault-tolerant architecture across AWS Regions or Availability Zones</p></li><li class="listitem"><p>Identifying metrics based on business requirements to deliver a highly available solution</p></li><li class="listitem"><p>Implementing designs to mitigate single points of failure</p></li><li class="listitem"><p>Implementing strategies to ensure the durability and availability of data (for example, backups)</p></li><li class="listitem"><p>Selecting an appropriate DR strategy to meet business requirements</p></li><li class="listitem"><p>Using AWS services that improve the reliability of legacy applications and applications not built for the cloud (for example, when application changes are not possible)</p></li><li class="listitem"><p>Using purpose-built AWS services for workloads</p></li></ul></div>
+  <awsdocs-copyright class="copyright-print"></awsdocs-copyright><awsdocs-thumb-feedback right-edge="{{$ctrl.thumbFeedbackRightEdge}}"></awsdocs-thumb-feedback></div><noscript><div><div><div><div id="js_error_message"><p><img src="https://d1ge0kk1l5kms0.cloudfront.net/images/G/01/webservices/console/warning.png" alt="Warning" /> <strong>Javascript is disabled or is unavailable in your browser.</strong></p><p>To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions.</p></div></div></div></div></noscript><div id="main-col-footer" class="awsui-util-font-size-0"><div id="doc-conventions"><a target="_top" href="/general/latest/gr/docconventions.html">Document Conventions</a></div><div class="prev-next"><div id="previous" class="prev-link" accesskey="p" href="./solutions-architect-associate-03-domain1.html">Content Domain 1: Design Secure Architectures</div><div id="next" class="next-link" accesskey="n" href="./solutions-architect-associate-03-domain3.html">Content Domain 3: Design High-Performing Architectures</div></div></div><awsdocs-page-utilities></awsdocs-page-utilities></div><div id="quick-feedback-yes" style="display: none;"><div class="title">Did this page help you? - Yes</div><div class="content"><p>Thanks for letting us know we're doing a good job!</p><p>If you've got a moment, please tell us what we did right so we can do more of it.</p><p><awsui-button id="fblink" rel="noopener noreferrer" target="_blank" text="Feedback" click="linkClick($event)" href="https://docs.aws.amazon.com/forms/aws-doc-feedback?hidden_service_name=Certification&amp;topic_url=https://docs.aws.amazon.com/en_us/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html"></awsui-button></p></div></div><div id="quick-feedback-no" style="display: none;"><div class="title">Did this page help you? - No</div><div class="content"><p>Thanks for letting us know this page needs work. We're sorry we let you down.</p><p>If you've got a moment, please tell us how we can make the documentation better.</p><p><awsui-button id="fblink" rel="noopener noreferrer" target="_blank" text="Feedback" click="linkClick($event)" href="https://docs.aws.amazon.com/forms/aws-doc-feedback?hidden_service_name=Certification&amp;topic_url=https://docs.aws.amazon.com/en_us/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain2.html"></awsui-button></p></div></div></div></body></div></awsdocs-view><div class="page-loading-indicator" id="page-loading-indicator"><awsui-spinner size="large"></awsui-spinner></div></div><div id="tools-panel" dom-region="tools"><awsdocs-tools-panel id="awsdocs-tools-panel"></awsdocs-tools-panel></div></awsui-app-layout><awsdocs-cookie-banner class="doc-cookie-banner"></awsdocs-cookie-banner></div></body></html>

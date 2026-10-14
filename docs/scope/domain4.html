@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+    <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Content Domain 4: Design Cost-Optimized Architectures - AWS Certified Solutions Architect - Associate</title><meta name="viewport" content="width=device-width,initial-scale=1" /><meta name="assets_root" content="/assets" /><meta name="target_state" content="solutions-architect-associate-03-domain4" /><meta name="default_state" content="solutions-architect-associate-03-domain4" /><link rel="icon" type="image/ico" href="/assets/images/favicon.ico" /><link rel="shortcut icon" type="image/ico" href="/assets/images/favicon.ico" /><link rel="canonical" href="https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html" /><meta name="description" content="Tasks Knowledge of: Access options (for example, an S3 bucket with Requester Pays object storage) AWS cost management service features (for example, cost allocation tags, multi-account billing) AWS cost management tools with appropriate use cases (for example, AWS Cost Explorer, AWS Budgets, AWS Cost and Usage Report)" /><meta name="deployment_region" content="IAD" /><meta name="product" content="AWS Certified Solutions Architect - Associate" /><meta name="guide" content="Exam Guide (SAA-C03)" /><meta name="abstract" content="Exam guide for the AWS Certified Solutions Architect - Associate (SAA-C03) certification exam" /><meta name="guide-locale" content="en_us" /><meta name="tocs" content="toc-contents.json" /><link rel="canonical" href="https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html" /><link rel="alternate" href="https://docs.aws.amazon.com/id_id/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html" hreflang="id-id" /><link rel="alternate" href="https://docs.aws.amazon.com/id_id/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html" hreflang="id" /><link rel="alternate" href="https://docs.aws.amazon.com/de_de/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html" hreflang="de-de" /><link rel="alternate" href="https://docs.aws.amazon.com/de_de/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html" hreflang="de" /><link rel="alternate" href="https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html" hreflang="en-us" /><link rel="alternate" href="https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html" hreflang="en" /><link rel="alternate" href="https://docs.aws.amazon.com/es_es/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html" hreflang="es-es" /><link rel="alternate" href="https://docs.aws.amazon.com/es_es/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html" hreflang="es" /><link rel="alternate" href="https://docs.aws.amazon.com/fr_fr/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html" hreflang="fr-fr" /><link rel="alternate" href="https://docs.aws.amazon.com/fr_fr/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html" hreflang="fr" /><link rel="alternate" href="https://docs.aws.amazon.com/it_it/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html" hreflang="it-it" /><link rel="alternate" href="https://docs.aws.amazon.com/it_it/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html" hreflang="it" /><link rel="alternate" href="https://docs.aws.amazon.com/ja_jp/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html" hreflang="ja-jp" /><link rel="alternate" href="https://docs.aws.amazon.com/ja_jp/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html" hreflang="ja" /><link rel="alternate" href="https://docs.aws.amazon.com/ko_kr/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html" hreflang="ko-kr" /><link rel="alternate" href="https://docs.aws.amazon.com/ko_kr/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html" hreflang="ko" /><link rel="alternate" href="https://docs.aws.amazon.com/pt_br/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html" hreflang="pt-br" /><link rel="alternate" href="https://docs.aws.amazon.com/pt_br/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html" hreflang="pt" /><link rel="alternate" href="https://docs.aws.amazon.com/zh_cn/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html" hreflang="zh-cn" /><link rel="alternate" href="https://docs.aws.amazon.com/zh_tw/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html" hreflang="zh-tw" /><link rel="alternate" href="https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html" hreflang="x-default" /><meta name="feedback-item" content="Certification" /><meta name="this_doc_product" content="AWS Certified Solutions Architect - Associate" /><meta name="this_doc_guide" content="Exam Guide (SAA-C03)" /><head xmlns="http://www.w3.org/1999/xhtml"> <script defer="" src="/assets/r/awsdocs-doc-page.2.0.0.js"></script><link href="/assets/r/awsdocs-doc-page.2.0.0.css" rel="stylesheet"/></head>
+<script defer="" id="awsc-panorama-bundle" type="text/javascript" src="https://prod.pa.cdn.uis.awsstatic.com/panorama-nav-init.js" data-config="{'appEntity':'aws-documentation','region':'us-east-1','service':'aws-certification/latest/examguides'}"></script><meta id="panorama-serviceSubSection" value="Exam Guide (SAA-C03)" /><meta id="panorama-serviceConsolePage" value="Content Domain 4: Design Cost-Optimized Architectures" /><meta name="uiVersion" content="2024.10" /></head><body class="awsdocs awsui"><div class="awsdocs-container"><p><a href="solutions-architect-associate-03-domain4.md">View a markdown version of this page</a></p><awsdocs-header></awsdocs-header><awsui-app-layout id="app-layout" class="awsui-util-no-gutters" ng-controller="ContentController as $ctrl" header-selector="awsdocs-header" navigation-hide="false" navigation-width="$ctrl.navWidth" navigation-open="$ctrl.navOpen" navigation-change="$ctrl.onNavChange($event)" tools-hide="$ctrl.hideTools" tools-width="$ctrl.toolsWidth" tools-open="$ctrl.toolsOpen" tools-change="$ctrl.onToolsChange($event)"><div id="guide-toc" dom-region="navigation"><awsdocs-toc></awsdocs-toc></div><div id="main-column" dom-region="content" tabindex="-1"><awsdocs-view class="awsdocs-view"><div id="awsdocs-content"><head><title>Content Domain 4: Design Cost-Optimized Architectures - AWS Certified Solutions Architect - Associate</title><meta name="pdf" content="/pdfs/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf#solutions-architect-associate-03-domain4" /><meta name="forums" content="https://repost.aws/search/content?globalSearch=AWS Certification" /><meta name="feedback" content="https://docs.aws.amazon.com/forms/aws-doc-feedback?hidden_service_name=Certification&amp;topic_url=https://docs.aws.amazon.com/en_us/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html" /><meta name="feedback-yes" content="feedbackyes.html?topic_url=https://docs.aws.amazon.com/en_us/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html" /><meta name="feedback-no" content="feedbackno.html?topic_url=https://docs.aws.amazon.com/en_us/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html" /><meta name="keywords" content="AWS Certified Solutions Architect,SAA-C03,aws-certification,associate,solutions architect" /><link rel="alternate" type="text/markdown" href="solutions-architect-associate-03-domain4.md" title="Markdown version" /><script type="application/ld+json">
+{
+    "@context" : "https://schema.org",
+    "@type" : "BreadcrumbList",
+    "itemListElement" : [
+      {
+        "@type" : "ListItem",
+        "position" : 1,
+        "name" : "AWS",
+        "item" : "https://aws.amazon.com"
+      },
+      {
+        "@type" : "ListItem",
+        "position" : 2,
+        "name" : "AWS Certification",
+        "item" : "https://docs.aws.amazon.com/aws-certification/latest/examguides/index.html"
+      },
+      {
+        "@type" : "ListItem",
+        "position" : 3,
+        "name" : "Exam Guide (SAA-C03)",
+        "item" : "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03"
+      },
+      {
+        "@type" : "ListItem",
+        "position" : 4,
+        "name" : "AWS Certified Solutions Architect - Associate (SAA-C03)",
+        "item" : "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.html"
+      },
+      {
+        "@type" : "ListItem",
+        "position" : 5,
+        "name" : "Content Domain 4: Design Cost-Optimized Architectures",
+        "item" : "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.html"
+      }
+    ]
+}
+</script></head><body><div id="main"><div style="display: none"><a href="/pdfs/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf#solutions-architect-associate-03-domain4" target="_blank" rel="noopener noreferrer" title="Open PDF"></a></div><div id="breadcrumbs" class="breadcrumb"><a href="/index.html">Documentation</a><a href="/aws-certification/latest/examguides/index.html">AWS Certification</a><a href="solutions-architect-associate-03.html">Exam Guide (SAA-C03)</a></div><div id="page-toc-src"><a href="#solutions-architect-associate-03-domain4-task1">Task 4.1: Design cost-optimized storage solutions</a><a href="#solutions-architect-associate-03-domain4-task2">Task 4.2: Design cost-optimized compute solutions</a><a href="#solutions-architect-associate-03-domain4-task3">Task 4.3: Design cost-optimized database solutions</a><a href="#solutions-architect-associate-03-domain4-task4">Task 4.4: Design cost-optimized network architectures</a></div><div id="main-content" class="awsui-util-container"><div id="main-col-body"><awsdocs-language-banner data-service="$ctrl.pageService"></awsdocs-language-banner><h1 class="topictitle" id="solutions-architect-associate-03-domain4">Content Domain 4: Design Cost-Optimized Architectures</h1><div class="awsdocs-page-header-container"><awsdocs-page-header></awsdocs-page-header><awsdocs-filter-selector id="awsdocs-filter-selector"></awsdocs-filter-selector></div><div class="highlights" id="inline-topiclist"><h6>Tasks</h6><ul><li><p><a href="#solutions-architect-associate-03-domain4-task1">Task 4.1: Design cost-optimized storage solutions</a></p></li><li><p><a href="#solutions-architect-associate-03-domain4-task2">Task 4.2: Design cost-optimized compute solutions</a></p></li><li><p><a href="#solutions-architect-associate-03-domain4-task3">Task 4.3: Design cost-optimized database solutions</a></p></li><li><p><a href="#solutions-architect-associate-03-domain4-task4">Task 4.4: Design cost-optimized network architectures</a></p></li></ul></div>
+    <h2 id="solutions-architect-associate-03-domain4-task1">Task 4.1: Design cost-optimized storage solutions</h2>
+    
+    <p>Knowledge of:</p>
+    <div class="itemizedlist">
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+    <ul class="itemizedlist"><li class="listitem"><p>Access options (for example, an S3 bucket with Requester Pays object storage)</p></li><li class="listitem"><p>AWS cost management service features (for example, cost allocation tags, multi-account billing)</p></li><li class="listitem"><p>AWS cost management tools with appropriate use cases (for example, AWS Cost Explorer, AWS Budgets, AWS Cost and Usage Report)</p></li><li class="listitem"><p>AWS storage services with appropriate use cases (for example, Amazon FSx, Amazon EFS, Amazon S3, Amazon EBS)</p></li><li class="listitem"><p>Backup strategies</p></li><li class="listitem"><p>Block storage options (for example, hard disk drive [HDD] volume types, solid state drive [SSD] volume types)</p></li><li class="listitem"><p>Data lifecycles</p></li><li class="listitem"><p>Hybrid storage options (for example, AWS DataSync, AWS Transfer Family, AWS Storage Gateway)</p></li><li class="listitem"><p>Storage access patterns</p></li><li class="listitem"><p>Storage tiering (for example, cold tiering for object storage)</p></li><li class="listitem"><p>Storage types with associated characteristics (for example, object, file, block)</p></li></ul></div>
+    
+    <p>Skills in:</p>
+    <div class="itemizedlist">
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+    <ul class="itemizedlist"><li class="listitem"><p>Designing appropriate storage strategies (for example, batch uploads to Amazon S3 compared with individual uploads)</p></li><li class="listitem"><p>Determining the correct storage size for a workload</p></li><li class="listitem"><p>Determining the lowest cost method of transferring data for a workload to AWS storage</p></li><li class="listitem"><p>Determining when storage auto scaling is required</p></li><li class="listitem"><p>Managing S3 object lifecycles</p></li><li class="listitem"><p>Selecting the appropriate backup and/or archival solution</p></li><li class="listitem"><p>Selecting the appropriate service for data migration to storage services</p></li><li class="listitem"><p>Selecting the appropriate storage tier</p></li><li class="listitem"><p>Selecting the correct data lifecycle for storage</p></li><li class="listitem"><p>Selecting the most cost-effective storage service for a workload</p></li></ul></div>
+   
+    <h2 id="solutions-architect-associate-03-domain4-task2">Task 4.2: Design cost-optimized compute solutions</h2>
+    
+    <p>Knowledge of:</p>
+    <div class="itemizedlist">
+       
+       
+       
+       
+       
+       
+       
+       
+       
+    <ul class="itemizedlist"><li class="listitem"><p>AWS cost management service features (for example, cost allocation tags, multi-account billing)</p></li><li class="listitem"><p>AWS cost management tools with appropriate use cases (for example, AWS Cost Explorer, AWS Budgets, AWS Cost and Usage Report)</p></li><li class="listitem"><p>AWS global infrastructure (for example, Availability Zones, AWS Regions)</p></li><li class="listitem"><p>AWS purchasing options (for example, Spot Instances, Reserved Instances, Savings Plans)</p></li><li class="listitem"><p>Distributed compute strategies (for example, edge processing)</p></li><li class="listitem"><p>Hybrid compute options (for example, AWS Outposts)</p></li><li class="listitem"><p>Instance types, families, and sizes (for example, memory optimized, compute optimized, virtualization)</p></li><li class="listitem"><p>Optimization of compute utilization (for example, containers, serverless computing, microservices)</p></li><li class="listitem"><p>Scaling strategies (for example, auto scaling, hibernation)</p></li></ul></div>
+    
+    <p>Skills in:</p>
+    <div class="itemizedlist">
+       
+       
+       
+       
+       
+       
+    <ul class="itemizedlist"><li class="listitem"><p>Determining an appropriate load balancing strategy (for example, Application Load Balancer [Layer 7] compared with Network Load Balancer [Layer 4] compared with Gateway Load Balancer)</p></li><li class="listitem"><p>Determining appropriate scaling methods and strategies for elastic workloads (for example, horizontal compared with vertical, EC2 hibernation)</p></li><li class="listitem"><p>Determining cost-effective AWS compute services with appropriate use cases (for example, AWS Lambda, Amazon EC2, AWS Fargate)</p></li><li class="listitem"><p>Determining the required availability for different classes of workloads (for example, production workloads, non-production workloads)</p></li><li class="listitem"><p>Selecting the appropriate instance family for a workload</p></li><li class="listitem"><p>Selecting the appropriate instance size for a workload</p></li></ul></div>
+   
+    <h2 id="solutions-architect-associate-03-domain4-task3">Task 4.3: Design cost-optimized database solutions</h2>
+    
+    <p>Knowledge of:</p>
+    <div class="itemizedlist">
+       
+       
+       
+       
+       
+       
+       
+       
+       
+    <ul class="itemizedlist"><li class="listitem"><p>AWS cost management service features (for example, cost allocation tags, multi-account billing)</p></li><li class="listitem"><p>AWS cost management tools with appropriate use cases (for example, AWS Cost Explorer, AWS Budgets, AWS Cost and Usage Report)</p></li><li class="listitem"><p>Caching strategies</p></li><li class="listitem"><p>Data retention policies</p></li><li class="listitem"><p>Database capacity planning (for example, capacity units)</p></li><li class="listitem"><p>Database connections and proxies</p></li><li class="listitem"><p>Database engines with appropriate use cases (for example, heterogeneous migrations, homogeneous migrations)</p></li><li class="listitem"><p>Database replication (for example, read replicas)</p></li><li class="listitem"><p>Database types and services (for example, relational compared with non-relational, Amazon Aurora, Amazon DynamoDB)</p></li></ul></div>
+    
+    <p>Skills in:</p>
+    <div class="itemizedlist">
+       
+       
+       
+       
+       
+    <ul class="itemizedlist"><li class="listitem"><p>Designing appropriate backup and retention policies (for example, snapshot frequency)</p></li><li class="listitem"><p>Determining an appropriate database engine (for example, MySQL compared with PostgreSQL)</p></li><li class="listitem"><p>Determining cost-effective AWS database services with appropriate use cases (for example, DynamoDB compared with Amazon RDS, serverless)</p></li><li class="listitem"><p>Determining cost-effective AWS database types (for example, time series format, columnar format)</p></li><li class="listitem"><p>Migrating database schemas and data to different locations and/or different database engines</p></li></ul></div>
+   
+    <h2 id="solutions-architect-associate-03-domain4-task4">Task 4.4: Design cost-optimized network architectures</h2>
+    
+    <p>Knowledge of:</p>
+    <div class="itemizedlist">
+       
+       
+       
+       
+       
+       
+       
+    <ul class="itemizedlist"><li class="listitem"><p>AWS cost management service features (for example, cost allocation tags, multi-account billing)</p></li><li class="listitem"><p>AWS cost management tools with appropriate use cases (for example, AWS Cost Explorer, AWS Budgets, AWS Cost and Usage Report)</p></li><li class="listitem"><p>Load balancing concepts (for example, Application Load Balancer [ALB])</p></li><li class="listitem"><p>NAT gateways (for example, NAT instance costs compared with NAT gateway costs)</p></li><li class="listitem"><p>Network connectivity (for example, private lines, dedicated lines, VPNs)</p></li><li class="listitem"><p>Network routing, topology, and peering (for example, AWS Transit Gateway, VPC peering)</p></li><li class="listitem"><p>Network services with appropriate use cases (for example, DNS)</p></li></ul></div>
+    
+    <p>Skills in:</p>
+    <div class="itemizedlist">
+       
+       
+       
+       
+       
+       
+       
+    <ul class="itemizedlist"><li class="listitem"><p>Configuring appropriate NAT gateway types for a network (for example, a single shared NAT gateway compared with NAT gateways for each Availability Zone)</p></li><li class="listitem"><p>Configuring appropriate network connections (for example, AWS Direct Connect compared with VPN compared with internet)</p></li><li class="listitem"><p>Configuring appropriate network routes to minimize network transfer costs (for example, Region to Region, Availability Zone to Availability Zone, private to public, AWS Global Accelerator, VPC endpoints)</p></li><li class="listitem"><p>Determining strategic needs for content delivery networks (CDNs) and edge caching</p></li><li class="listitem"><p>Reviewing existing workloads for network optimizations</p></li><li class="listitem"><p>Selecting an appropriate throttling strategy</p></li><li class="listitem"><p>Selecting the appropriate bandwidth allocation for a network device (for example, a single VPN compared with multiple VPNs, Direct Connect speed)</p></li></ul></div>
+  <awsdocs-copyright class="copyright-print"></awsdocs-copyright><awsdocs-thumb-feedback right-edge="{{$ctrl.thumbFeedbackRightEdge}}"></awsdocs-thumb-feedback></div><noscript><div><div><div><div id="js_error_message"><p><img src="https://d1ge0kk1l5kms0.cloudfront.net/images/G/01/webservices/console/warning.png" alt="Warning" /> <strong>Javascript is disabled or is unavailable in your browser.</strong></p><p>To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions.</p></div></div></div></div></noscript><div id="main-col-footer" class="awsui-util-font-size-0"><div id="doc-conventions"><a target="_top" href="/general/latest/gr/docconventions.html">Document Conventions</a></div><div class="prev-next"><div id="previous" class="prev-link" accesskey="p" href="./solutions-architect-associate-03-domain3.html">Content Domain 3: Design High-Performing Architectures</div><div id="next" class="next-link" accesskey="n" href="./saa-technologies-concepts.html">Technologies and Concepts</div></div></div><awsdocs-page-utilities></awsdocs-page-utilities></div><div id="quick-feedback-yes" style="display: none;"><div class="title">Did this page help you? - Yes</div><div class="content"><p>Thanks for letting us know we're doing a good job!</p><p>If you've got a moment, please tell us what we did right so we can do more of it.</p><p><awsui-button id="fblink" rel="noopener noreferrer" target="_blank" text="Feedback" click="linkClick($event)" href="https://docs.aws.amazon.com/forms/aws-doc-feedback?hidden_service_name=Certification&amp;topic_url=https://docs.aws.amazon.com/en_us/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html"></awsui-button></p></div></div><div id="quick-feedback-no" style="display: none;"><div class="title">Did this page help you? - No</div><div class="content"><p>Thanks for letting us know this page needs work. We're sorry we let you down.</p><p>If you've got a moment, please tell us how we can make the documentation better.</p><p><awsui-button id="fblink" rel="noopener noreferrer" target="_blank" text="Feedback" click="linkClick($event)" href="https://docs.aws.amazon.com/forms/aws-doc-feedback?hidden_service_name=Certification&amp;topic_url=https://docs.aws.amazon.com/en_us/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain4.html"></awsui-button></p></div></div></div></body></div></awsdocs-view><div class="page-loading-indicator" id="page-loading-indicator"><awsui-spinner size="large"></awsui-spinner></div></div><div id="tools-panel" dom-region="tools"><awsdocs-tools-panel id="awsdocs-tools-panel"></awsdocs-tools-panel></div></awsui-app-layout><awsdocs-cookie-banner class="doc-cookie-banner"></awsdocs-cookie-banner></div></body></html>

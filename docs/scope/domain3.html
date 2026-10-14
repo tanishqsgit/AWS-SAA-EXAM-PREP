@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+    <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Content Domain 3: Design High-Performing Architectures - AWS Certified Solutions Architect - Associate</title><meta name="viewport" content="width=device-width,initial-scale=1" /><meta name="assets_root" content="/assets" /><meta name="target_state" content="solutions-architect-associate-03-domain3" /><meta name="default_state" content="solutions-architect-associate-03-domain3" /><link rel="icon" type="image/ico" href="/assets/images/favicon.ico" /><link rel="shortcut icon" type="image/ico" href="/assets/images/favicon.ico" /><link rel="canonical" href="https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" /><meta name="description" content="Tasks Knowledge of: Hybrid storage solutions to meet business requirements Storage services with appropriate use cases (for example, Amazon S3, Amazon EFS, Amazon EBS) Storage types with associated characteristics (for example, object, file, block)" /><meta name="deployment_region" content="IAD" /><meta name="product" content="AWS Certified Solutions Architect - Associate" /><meta name="guide" content="Exam Guide (SAA-C03)" /><meta name="abstract" content="Exam guide for the AWS Certified Solutions Architect - Associate (SAA-C03) certification exam" /><meta name="guide-locale" content="en_us" /><meta name="tocs" content="toc-contents.json" /><link rel="canonical" href="https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" /><link rel="alternate" href="https://docs.aws.amazon.com/id_id/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" hreflang="id-id" /><link rel="alternate" href="https://docs.aws.amazon.com/id_id/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" hreflang="id" /><link rel="alternate" href="https://docs.aws.amazon.com/de_de/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" hreflang="de-de" /><link rel="alternate" href="https://docs.aws.amazon.com/de_de/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" hreflang="de" /><link rel="alternate" href="https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" hreflang="en-us" /><link rel="alternate" href="https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" hreflang="en" /><link rel="alternate" href="https://docs.aws.amazon.com/es_es/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" hreflang="es-es" /><link rel="alternate" href="https://docs.aws.amazon.com/es_es/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" hreflang="es" /><link rel="alternate" href="https://docs.aws.amazon.com/fr_fr/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" hreflang="fr-fr" /><link rel="alternate" href="https://docs.aws.amazon.com/fr_fr/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" hreflang="fr" /><link rel="alternate" href="https://docs.aws.amazon.com/it_it/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" hreflang="it-it" /><link rel="alternate" href="https://docs.aws.amazon.com/it_it/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" hreflang="it" /><link rel="alternate" href="https://docs.aws.amazon.com/ja_jp/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" hreflang="ja-jp" /><link rel="alternate" href="https://docs.aws.amazon.com/ja_jp/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" hreflang="ja" /><link rel="alternate" href="https://docs.aws.amazon.com/ko_kr/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" hreflang="ko-kr" /><link rel="alternate" href="https://docs.aws.amazon.com/ko_kr/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" hreflang="ko" /><link rel="alternate" href="https://docs.aws.amazon.com/pt_br/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" hreflang="pt-br" /><link rel="alternate" href="https://docs.aws.amazon.com/pt_br/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" hreflang="pt" /><link rel="alternate" href="https://docs.aws.amazon.com/zh_cn/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" hreflang="zh-cn" /><link rel="alternate" href="https://docs.aws.amazon.com/zh_tw/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" hreflang="zh-tw" /><link rel="alternate" href="https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" hreflang="x-default" /><meta name="feedback-item" content="Certification" /><meta name="this_doc_product" content="AWS Certified Solutions Architect - Associate" /><meta name="this_doc_guide" content="Exam Guide (SAA-C03)" /><head xmlns="http://www.w3.org/1999/xhtml"> <script defer="" src="/assets/r/awsdocs-doc-page.2.0.0.js"></script><link href="/assets/r/awsdocs-doc-page.2.0.0.css" rel="stylesheet"/></head>
+<script defer="" id="awsc-panorama-bundle" type="text/javascript" src="https://prod.pa.cdn.uis.awsstatic.com/panorama-nav-init.js" data-config="{'appEntity':'aws-documentation','region':'us-east-1','service':'aws-certification/latest/examguides'}"></script><meta id="panorama-serviceSubSection" value="Exam Guide (SAA-C03)" /><meta id="panorama-serviceConsolePage" value="Content Domain 3: Design High-Performing Architectures" /><meta name="uiVersion" content="2024.10" /></head><body class="awsdocs awsui"><div class="awsdocs-container"><p><a href="solutions-architect-associate-03-domain3.md">View a markdown version of this page</a></p><awsdocs-header></awsdocs-header><awsui-app-layout id="app-layout" class="awsui-util-no-gutters" ng-controller="ContentController as $ctrl" header-selector="awsdocs-header" navigation-hide="false" navigation-width="$ctrl.navWidth" navigation-open="$ctrl.navOpen" navigation-change="$ctrl.onNavChange($event)" tools-hide="$ctrl.hideTools" tools-width="$ctrl.toolsWidth" tools-open="$ctrl.toolsOpen" tools-change="$ctrl.onToolsChange($event)"><div id="guide-toc" dom-region="navigation"><awsdocs-toc></awsdocs-toc></div><div id="main-column" dom-region="content" tabindex="-1"><awsdocs-view class="awsdocs-view"><div id="awsdocs-content"><head><title>Content Domain 3: Design High-Performing Architectures - AWS Certified Solutions Architect - Associate</title><meta name="pdf" content="/pdfs/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf#solutions-architect-associate-03-domain3" /><meta name="forums" content="https://repost.aws/search/content?globalSearch=AWS Certification" /><meta name="feedback" content="https://docs.aws.amazon.com/forms/aws-doc-feedback?hidden_service_name=Certification&amp;topic_url=https://docs.aws.amazon.com/en_us/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" /><meta name="feedback-yes" content="feedbackyes.html?topic_url=https://docs.aws.amazon.com/en_us/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" /><meta name="feedback-no" content="feedbackno.html?topic_url=https://docs.aws.amazon.com/en_us/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html" /><meta name="keywords" content="AWS Certified Solutions Architect,SAA-C03,aws-certification,associate,solutions architect" /><link rel="alternate" type="text/markdown" href="solutions-architect-associate-03-domain3.md" title="Markdown version" /><script type="application/ld+json">
+{
+    "@context" : "https://schema.org",
+    "@type" : "BreadcrumbList",
+    "itemListElement" : [
+      {
+        "@type" : "ListItem",
+        "position" : 1,
+        "name" : "AWS",
+        "item" : "https://aws.amazon.com"
+      },
+      {
+        "@type" : "ListItem",
+        "position" : 2,
+        "name" : "AWS Certification",
+        "item" : "https://docs.aws.amazon.com/aws-certification/latest/examguides/index.html"
+      },
+      {
+        "@type" : "ListItem",
+        "position" : 3,
+        "name" : "Exam Guide (SAA-C03)",
+        "item" : "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03"
+      },
+      {
+        "@type" : "ListItem",
+        "position" : 4,
+        "name" : "AWS Certified Solutions Architect - Associate (SAA-C03)",
+        "item" : "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.html"
+      },
+      {
+        "@type" : "ListItem",
+        "position" : 5,
+        "name" : "Content Domain 3: Design High-Performing Architectures",
+        "item" : "https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.html"
+      }
+    ]
+}
+</script></head><body><div id="main"><div style="display: none"><a href="/pdfs/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.pdf#solutions-architect-associate-03-domain3" target="_blank" rel="noopener noreferrer" title="Open PDF"></a></div><div id="breadcrumbs" class="breadcrumb"><a href="/index.html">Documentation</a><a href="/aws-certification/latest/examguides/index.html">AWS Certification</a><a href="solutions-architect-associate-03.html">Exam Guide (SAA-C03)</a></div><div id="page-toc-src"><a href="#solutions-architect-associate-03-domain3-task1">Task 3.1: Determine high-performing and/or scalable storage solutions</a><a href="#solutions-architect-associate-03-domain3-task2">Task 3.2: Design high-performing and elastic compute solutions</a><a href="#solutions-architect-associate-03-domain3-task3">Task 3.3: Determine high-performing database solutions</a><a href="#solutions-architect-associate-03-domain3-task4">Task 3.4: Determine high-performing and/or scalable network architectures</a><a href="#solutions-architect-associate-03-domain3-task5">Task 3.5: Determine high-performing data ingestion and transformation solutions</a></div><div id="main-content" class="awsui-util-container"><div id="main-col-body"><awsdocs-language-banner data-service="$ctrl.pageService"></awsdocs-language-banner><h1 class="topictitle" id="solutions-architect-associate-03-domain3">Content Domain 3: Design High-Performing Architectures</h1><div class="awsdocs-page-header-container"><awsdocs-page-header></awsdocs-page-header><awsdocs-filter-selector id="awsdocs-filter-selector"></awsdocs-filter-selector></div><div class="highlights" id="inline-topiclist"><h6>Tasks</h6><ul><li><p><a href="#solutions-architect-associate-03-domain3-task1">Task 3.1: Determine high-performing and/or scalable storage solutions</a></p></li><li><p><a href="#solutions-architect-associate-03-domain3-task2">Task 3.2: Design high-performing and elastic compute solutions</a></p></li><li><p><a href="#solutions-architect-associate-03-domain3-task3">Task 3.3: Determine high-performing database solutions</a></p></li><li><p><a href="#solutions-architect-associate-03-domain3-task4">Task 3.4: Determine high-performing and/or scalable network architectures</a></p></li><li><p><a href="#solutions-architect-associate-03-domain3-task5">Task 3.5: Determine high-performing data ingestion and transformation solutions</a></p></li></ul></div>
+    <h2 id="solutions-architect-associate-03-domain3-task1">Task 3.1: Determine high-performing and/or scalable storage solutions</h2>
+    
+    <p>Knowledge of:</p>
+    <div class="itemizedlist">
+       
+       
+       
+    <ul class="itemizedlist"><li class="listitem"><p>Hybrid storage solutions to meet business requirements</p></li><li class="listitem"><p>Storage services with appropriate use cases (for example, Amazon S3, Amazon EFS, Amazon EBS)</p></li><li class="listitem"><p>Storage types with associated characteristics (for example, object, file, block)</p></li></ul></div>
+    
+    <p>Skills in:</p>
+    <div class="itemizedlist">
+       
+       
+    <ul class="itemizedlist"><li class="listitem"><p>Determining storage services and configurations that meet performance demands</p></li><li class="listitem"><p>Determining storage services that can scale to accommodate future needs</p></li></ul></div>
+   
+    <h2 id="solutions-architect-associate-03-domain3-task2">Task 3.2: Design high-performing and elastic compute solutions</h2>
+    
+    <p>Knowledge of:</p>
+    <div class="itemizedlist">
+       
+       
+       
+       
+       
+       
+    <ul class="itemizedlist"><li class="listitem"><p>AWS compute services with appropriate use cases (for example, AWS Batch, Amazon EMR, AWS Fargate)</p></li><li class="listitem"><p>Distributed computing concepts supported by AWS global infrastructure and edge services</p></li><li class="listitem"><p>Queuing and messaging concepts (for example, publish/subscribe)</p></li><li class="listitem"><p>Scalability capabilities with appropriate use cases (for example, Amazon EC2 Auto Scaling, AWS Auto Scaling)</p></li><li class="listitem"><p>Serverless technologies and patterns (for example, AWS Lambda, Fargate)</p></li><li class="listitem"><p>The orchestration of containers (for example, Amazon ECS, Amazon EKS)</p></li></ul></div>
+    
+    <p>Skills in:</p>
+    <div class="itemizedlist">
+       
+       
+       
+       
+    <ul class="itemizedlist"><li class="listitem"><p>Decoupling workloads so that components can scale independently</p></li><li class="listitem"><p>Identifying metrics and conditions to perform scaling actions</p></li><li class="listitem"><p>Selecting the appropriate compute options and features (for example, EC2 instance types) to meet business requirements</p></li><li class="listitem"><p>Selecting the appropriate resource type and size (for example, the amount of Lambda memory) to meet business requirements</p></li></ul></div>
+   
+    <h2 id="solutions-architect-associate-03-domain3-task3">Task 3.3: Determine high-performing database solutions</h2>
+    
+    <p>Knowledge of:</p>
+    <div class="itemizedlist">
+       
+       
+       
+       
+       
+       
+       
+       
+    <ul class="itemizedlist"><li class="listitem"><p>AWS global infrastructure (for example, Availability Zones, AWS Regions)</p></li><li class="listitem"><p>Caching strategies and services (for example, Amazon ElastiCache)</p></li><li class="listitem"><p>Data access patterns (for example, read-intensive compared with write-intensive)</p></li><li class="listitem"><p>Database capacity planning (for example, capacity units, instance types, Provisioned IOPS)</p></li><li class="listitem"><p>Database connections and proxies</p></li><li class="listitem"><p>Database engines with appropriate use cases (for example, heterogeneous migrations, homogeneous migrations)</p></li><li class="listitem"><p>Database replication (for example, read replicas)</p></li><li class="listitem"><p>Database types and services (for example, serverless, relational compared with non-relational, in-memory)</p></li></ul></div>
+    
+    <p>Skills in:</p>
+    <div class="itemizedlist">
+       
+       
+       
+       
+       
+    <ul class="itemizedlist"><li class="listitem"><p>Configuring read replicas to meet business requirements</p></li><li class="listitem"><p>Designing database architectures</p></li><li class="listitem"><p>Determining an appropriate database engine (for example, MySQL compared with PostgreSQL)</p></li><li class="listitem"><p>Determining an appropriate database type (for example, Amazon Aurora, Amazon DynamoDB)</p></li><li class="listitem"><p>Integrating caching to meet business requirements</p></li></ul></div>
+   
+    <h2 id="solutions-architect-associate-03-domain3-task4">Task 3.4: Determine high-performing and/or scalable network architectures</h2>
+    
+    <p>Knowledge of:</p>
+    <div class="itemizedlist">
+       
+       
+       
+       
+    <ul class="itemizedlist"><li class="listitem"><p>Edge networking services with appropriate use cases (for example, Amazon CloudFront, AWS Global Accelerator)</p></li><li class="listitem"><p>How to design network architecture (for example, subnet tiers, routing, IP addressing)</p></li><li class="listitem"><p>Load balancing concepts (for example, Application Load Balancer [ALB])</p></li><li class="listitem"><p>Network connection options (for example, AWS VPN, AWS Direct Connect, AWS PrivateLink)</p></li></ul></div>
+    
+    <p>Skills in:</p>
+    <div class="itemizedlist">
+       
+       
+       
+       
+    <ul class="itemizedlist"><li class="listitem"><p>Creating a network topology for various architectures (for example, global, hybrid, multi-tier)</p></li><li class="listitem"><p>Determining network configurations that can scale to accommodate future needs</p></li><li class="listitem"><p>Determining the appropriate placement of resources to meet business requirements</p></li><li class="listitem"><p>Selecting the appropriate load balancing strategy</p></li></ul></div>
+   
+    <h2 id="solutions-architect-associate-03-domain3-task5">Task 3.5: Determine high-performing data ingestion and transformation solutions</h2>
+    
+    <p>Knowledge of:</p>
+    <div class="itemizedlist">
+       
+       
+       
+       
+       
+       
+       
+    <ul class="itemizedlist"><li class="listitem"><p>Data analytics and visualization services with appropriate use cases (for example, Amazon Athena, AWS Lake Formation, Amazon Quick)</p></li><li class="listitem"><p>Data ingestion patterns (for example, frequency)</p></li><li class="listitem"><p>Data transfer services with appropriate use cases (for example, AWS DataSync, AWS Storage Gateway)</p></li><li class="listitem"><p>Data transformation services with appropriate use cases (for example, AWS Glue)</p></li><li class="listitem"><p>Secure access to ingestion access points</p></li><li class="listitem"><p>Sizes and speeds needed to meet business requirements</p></li><li class="listitem"><p>Streaming data services with appropriate use cases (for example, Amazon Kinesis)</p></li></ul></div>
+    
+    <p>Skills in:</p>
+    <div class="itemizedlist">
+       
+       
+       
+       
+       
+       
+       
+    <ul class="itemizedlist"><li class="listitem"><p>Building and securing data lakes</p></li><li class="listitem"><p>Designing data streaming architectures</p></li><li class="listitem"><p>Designing data transfer solutions</p></li><li class="listitem"><p>Implementing visualization strategies</p></li><li class="listitem"><p>Selecting appropriate compute options for data processing (for example, Amazon EMR)</p></li><li class="listitem"><p>Selecting appropriate configurations for ingestion</p></li><li class="listitem"><p>Transforming data between formats (for example, .csv to .parquet)</p></li></ul></div>
+  <awsdocs-copyright class="copyright-print"></awsdocs-copyright><awsdocs-thumb-feedback right-edge="{{$ctrl.thumbFeedbackRightEdge}}"></awsdocs-thumb-feedback></div><noscript><div><div><div><div id="js_error_message"><p><img src="https://d1ge0kk1l5kms0.cloudfront.net/images/G/01/webservices/console/warning.png" alt="Warning" /> <strong>Javascript is disabled or is unavailable in your browser.</strong></p><p>To use the Amazon Web Services Documentation, Javascript must be enabled. Please refer to your browser's Help pages for instructions.</p></div></div></div></div></noscript><div id="main-col-footer" class="awsui-util-font-size-0"><div id="doc-conventions"><a target="_top" href="/general/latest/gr/docconventions.html">Document Conventions</a></div><div class="prev-next"><div id="previous" class="prev-link" accesskey="p" href="./solutions-architect-associate-03-domain2.html">Content Domain 2: Design Resilient Architectures</div><div id="next" class="next-link" accesskey="n" href="./solutions-architect-associate-03-domain4.html">Content Domain 4: Design Cost-Optimized Architectures</div></div></div><awsdocs-page-utilities></awsdocs-page-utilities></div><div id="quick-feedback-yes" style="display: none;"><div class="title">Did this page help you? - Yes</div><div class="content"><p>Thanks for letting us know we're doing a good job!</p><p>If you've got a moment, please tell us what we did right so we can do more of it.</p><p><awsui-button id="fblink" rel="noopener noreferrer" target="_blank" text="Feedback" click="linkClick($event)" href="https://docs.aws.amazon.com/forms/aws-doc-feedback?hidden_service_name=Certification&amp;topic_url=https://docs.aws.amazon.com/en_us/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html"></awsui-button></p></div></div><div id="quick-feedback-no" style="display: none;"><div class="title">Did this page help you? - No</div><div class="content"><p>Thanks for letting us know this page needs work. We're sorry we let you down.</p><p>If you've got a moment, please tell us how we can make the documentation better.</p><p><awsui-button id="fblink" rel="noopener noreferrer" target="_blank" text="Feedback" click="linkClick($event)" href="https://docs.aws.amazon.com/forms/aws-doc-feedback?hidden_service_name=Certification&amp;topic_url=https://docs.aws.amazon.com/en_us/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03-domain3.html"></awsui-button></p></div></div></div></body></div></awsdocs-view><div class="page-loading-indicator" id="page-loading-indicator"><awsui-spinner size="large"></awsui-spinner></div></div><div id="tools-panel" dom-region="tools"><awsdocs-tools-panel id="awsdocs-tools-panel"></awsdocs-tools-panel></div></awsui-app-layout><awsdocs-cookie-banner class="doc-cookie-banner"></awsdocs-cookie-banner></div></body></html>

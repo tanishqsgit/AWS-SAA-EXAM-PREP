@@ -1,0 +1,2 @@
+export interface ServiceEntry {key:string;name:string;topicId:string;depth:'core'|'overview'|'guide-listed legacy';purpose:string;scenario:string;avoid:string;example:string;reference:string;availabilityNote?:string}
+export function service(key:string,name:string,topicId:string,purpose:string,scenario:string,avoid:string,example:string,reference:string,depth:ServiceEntry['depth']='core',availabilityNote?:string):ServiceEntry{return {key,name,topicId,purpose,scenario,avoid,example,reference,depth,availabilityNote};}
