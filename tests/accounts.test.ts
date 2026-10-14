@@ -1,0 +1,4 @@
+import {it,expect} from 'vitest';
+import {normalizeEmail,hashPassword,equalHash,validatePassword} from '../src/account-crypto';
+it('normalizes email identity and rejects invalid input',()=>{expect(normalizeEmail(' Learner@Example.COM ')).toBe('learner@example.com');expect(()=>normalizeEmail('not-an-email')).toThrow();expect(()=>validatePassword('short')).toThrow();expect(()=>validatePassword('x'.repeat(129))).toThrow();});
+it('uses a salted slow password hash without retaining plaintext',async()=>{const password='correct horse battery staple',salt=new Uint8Array(16).fill(3),a=await hashPassword(password,salt),same=await hashPassword(password,salt),different=await hashPassword(password,new Uint8Array(16).fill(4));expect(a).toMatch(/^[0-9a-f]{64}$/);expect(a).not.toContain(password);expect(equalHash(a,same)).toBe(true);expect(equalHash(a,different)).toBe(false);expect(equalHash(a,'')).toBe(false);},10000);

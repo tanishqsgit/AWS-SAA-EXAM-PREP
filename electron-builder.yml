@@ -1,0 +1,26 @@
+appId: com.tanishq.saa-study-studio
+productName: AWS SAA Study Studio
+directories:
+  output: release
+files:
+  - dist/**/*
+  - desktop/**/*
+  - package.json
+asar: true
+electronDist: node_modules/electron/dist
+win:
+  target:
+    - target: nsis
+      arch: [x64]
+    - target: portable
+      arch: [x64]
+  signAndEditExecutable: false
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  deleteAppDataOnUninstall: false
+  createDesktopShortcut: true
+  artifactName: AWS-SAA-Study-Studio-Setup-${version}.${ext}
+portable:
+  artifactName: AWS-SAA-Study-Studio-Portable-${version}.${ext}

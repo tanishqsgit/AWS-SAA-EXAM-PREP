@@ -1,6 +1,33 @@
 # SAA Study Studio
 
-A localhost, local-first React/TypeScript application for a 21-day AWS Solutions Architect Associate study programme. No account, deployment, runtime AI service, or cloud backend is needed.
+A local-first AWS Solutions Architect Associate study app, available as a Windows desktop application and a React/TypeScript localhost project. Local email-and-password profiles keep each learner's progress separate. No OTP, cloud account, runtime AI service, or shared login backend is needed.
+
+## Download the Windows app
+
+Open [GitHub Releases](https://github.com/tanishqsgit/AWS-SAA-EXAM-PREP/releases/latest) and download **AWS-SAA-Study-Studio-Setup-1.1.0.exe** for installation, or **AWS-SAA-Study-Studio-Portable-1.1.0.exe** to launch without an installer. Builds target Windows x64. The executable includes Electron's runtime, the app, all ten papers, and the complete study course. Users do not need Node.js, npm, Docker, or a localhost server. Internet is needed to download it and open external AWS sources, not to sign in or study.
+
+These builds are unsigned because this project has no code-signing certificate. Windows can display a publisher or SmartScreen warning. Download only from this repository's Releases page; `SHA256SUMS.txt` contains build checksums. Installing updates preserves the local profile store; export before moving machines or deleting app data.
+
+### Local accounts
+
+- Use **Create profile** once per email on this installation, then **Sign in** with that email and password. Case and surrounding spaces are normalized; duplicate registration is rejected.
+- Passwords use salted PBKDF2-SHA-256 hashing with 600,000 iterations. Passwords and account hashes are excluded from progress exports. Local study progress is not encrypted.
+- Accounts stay local and do not verify email ownership or sync between devices. There is no email password recovery. Anyone can create their own profile with a different email; this is not global account uniqueness.
+- The first profile created in the web app claims its previous unassigned progress. Desktop and browser storage are separate: use progress export/import to move between them. Later profiles start independently.
+- Refresh preserves the current tab's sign-in. Closing the desktop application requires signing in again; timed deadlines continue while signed out or closed.
+- Desktop data is stored under `%APPDATA%/saa-study-studio`, outside the installed program files. Browser data remains specific to the origin and browser profile. An uninstall preserves app data unless you remove it yourself.
+
+### Build the desktop application
+
+```powershell
+npm install
+npm run desktop:dev
+npm run desktop:package
+```
+
+The final command creates Setup and Portable executables under `release/`. This folder is ignored by Git: large executable binaries are distributed as GitHub Release assets, while source remains in the repository. A `v*` tag starts the Windows GitHub Actions build, runs unit tests, and uploads the executables and checksums to a release. Manual workflow runs produce a downloadable build artifact.
+
+Run `npm run test:desktop` after `npm run build` for the offline Electron smoke workflow. Set `SAA_PACKAGED_EXECUTABLE` to the `release/win-unpacked/AWS SAA Study Studio.exe` path to run the same test against the packaged runtime. Tests use isolated temporary profile storage.
 
 ## Run
 
