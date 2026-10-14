@@ -4,7 +4,7 @@ A local-first AWS Solutions Architect Associate study app, available as a Window
 
 ## Download the Windows app
 
-Open [GitHub Releases](https://github.com/tanishqsgit/AWS-SAA-EXAM-PREP/releases/latest) and download **AWS-SAA-Study-Studio-Setup-1.1.0.exe** for installation, or **AWS-SAA-Study-Studio-Portable-1.1.0.exe** to launch without an installer. Builds target Windows x64. The executable includes Electron's runtime, the app, all ten papers, and the complete study course. Users do not need Node.js, npm, Docker, or a localhost server. Internet is needed to download it and open external AWS sources, not to sign in or study.
+Open [GitHub Releases](https://github.com/tanishqsgit/AWS-SAA-EXAM-PREP/releases/latest) and download **AWS-SAA-Study-Studio-Setup-1.1.1.exe** for installation, or **AWS-SAA-Study-Studio-Portable-1.1.1.exe** to launch without an installer. Builds target Windows x64. The executable includes Electron's runtime, the app, all ten papers, and the complete study course. Users do not need Node.js, npm, Docker, or a localhost server. Internet is needed to download it and open external AWS sources, not to sign in or study.
 
 These builds are unsigned because this project has no code-signing certificate. Windows can display a publisher or SmartScreen warning. Download only from this repository's Releases page; `SHA256SUMS.txt` contains build checksums. Installing updates preserves the local profile store; export before moving machines or deleting app data.
 
@@ -107,3 +107,4 @@ Valid batch numbers are 1–10. Regenerating reads the saved source ledger. Retr
 This is an independent study application, without Pearson VUE security controls. Browser code contains the local learning bank, while the timed interface hides keys and explanations until submission. Per-question time is approximate visible time; total exam time is determined by the deadline. The operating-system clock should remain correct. Browser storage failure is displayed, and exporting provides a portable backup.
 
 The 650-question bank is compact, AI-authored teaching content, not official exam content, dumps, recalled questions, or a copied commercial bank. A human instructor should independently review it before using it as a formal assessment. No calibrated difficulty, validated pass probability, or official examination equivalence is claimed.
+
