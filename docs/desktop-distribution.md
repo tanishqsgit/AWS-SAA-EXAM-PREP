@@ -1,4 +1,4 @@
-# Desktop distribution v1.1.0
+# Desktop distribution v1.1.2
 
 The application is packaged using Electron and electron-builder. Windows x64 NSIS Setup and Portable executables bundle a Chromium/Node runtime and all Vite production assets. There is no local web-server process to start and no runtime cloud dependency. The original exam bank and study course are bundled unchanged.
 
@@ -19,6 +19,8 @@ The binaries are unsigned. Windows publisher/SmartScreen prompts are possible. N
 ## Validation
 
 Version 1.1.0 passed 20 unit tests, 13 browser workflows (including duplicate emails, wrong passwords, profile isolation, legacy migration, and safe exports), and 3 production offline workflows. The Electron source runtime and packaged runtime both passed offline registration, all 32 bundled chapters, persisted exam answers, close/reopen login, absolute-deadline expiry, and saved course notes. TypeScript and Vite production builds passed. Setup and Portable executables were produced; their Authenticode status is `NotSigned`.
+
+Release v1.1.2 also passed a clean Windows GitHub Actions installation, all 20 unit tests, production packaging, and the packaged offline desktop smoke workflow. The optional WASI toolchain dependencies are explicit so clean npm installs resolve consistently. The [successful release build](https://github.com/tanishqsgit/AWS-SAA-EXAM-PREP/actions/runs/38599245365) published Setup, Portable, and SHA-256 checksum assets on the [v1.1.2 release](https://github.com/tanishqsgit/AWS-SAA-EXAM-PREP/releases/tag/v1.1.2).
 
 The build helper downloads the Electron runtime during setup, verifies the official package's SHA-256 checksum before extraction, and can fall back to a mirror if the GitHub transfer fails. This affects developers and CI during packaging; installed users need no runtime download. Native-window screenshots can require an active Windows compositor, so the functional smoke test does not depend on screenshots. Existing desktop and browser screenshots are available in this folder.
 
