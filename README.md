@@ -1,3 +1,9 @@
+> **Documentation:** [Quickstart](docs/quickstart.md) ·
+> [Troubleshooting](docs/troubleshooting.md) ·
+> [Documentation verification](docs/portfolio-verification.md).
+> Start with the quickstart for the user task; the detailed reference below records
+> implementation scope, source-review history, and limitations.
+
 # SAA Study Studio
 
 A local-first AWS Solutions Architect Associate study app, available as a Windows desktop application and a React/TypeScript localhost project. Local email-and-password profiles keep each learner's progress separate. No OTP, cloud account, runtime AI service, or shared login backend is needed.
